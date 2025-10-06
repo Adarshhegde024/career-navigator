@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - CET Guidance</title>
+    <link rel="stylesheet" href="../frontend/FIQ.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="nav-brand">CET Guidance</a>
+            <ul class="nav-menu">
+                <li><a href="home.php" class="nav-link">Home</a></li>
+                <li><a href="colleges.php" class="nav-link">Colleges</a></li>
+                <li><a href="recommendations.php" class="nav-link">Recommendations</a></li>
+                <li><a href="AiCounselor.php" class="nav-link">AI Counselor</a></li>
+                <li><a href="FIQ.php" class="nav-link active">FAQ</a></li>
+                <li><a href="about.php" class="nav-link">About</a></li>
+            </ul>
+            <div class="nav-right-items">
+                <!-- In a real app, a theme switcher would need JavaScript -->
+                <a href="logout.html" class="logout-button">Logout</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            
+            <div class="faq-container">
+                <!-- NOTE: The accordion functionality requires JavaScript to open and close items. -->
+                <!-- This is a static visual representation. -->
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What is the CET counseling process?</span>
+                        <svg class="faq-arrow" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>It's a centralized process for admissions into professional courses based on your rank. It involves document verification, option entry, mock allotment, and final seat allotment.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How does the 'Option Entry' work?</span>
+                        <svg class="faq-arrow" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>During option entry, you log in to the portal and enter your preferred choices of colleges and courses in order of priority. The allotment is done based on this priority list and your rank.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What is a 'mock allotment'?</span>
+                        <svg class="faq-arrow" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Mock allotment is a trial allotment conducted before the actual seat allotment. It helps you understand your chances of getting a seat in your preferred college and allows you to modify options before the final round.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can I change my options after the first round?</span>
+                        <svg class="faq-arrow" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, depending on the rules for the year, you usually have the opportunity to modify, add, or delete options after the first round of allotment.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
+

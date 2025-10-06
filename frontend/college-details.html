@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Details - Career Guidance System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="colleges.html" class="nav-brand">CET Guidance</a>
+            <ul class="nav-menu">
+                <li><a href="colleges.html" class="nav-link">Colleges</a></li>
+                <li><a href="recommendations.html" class="nav-link">Recommendations</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="content-section">
+            <div class="container" id="collegeDetailsContainer">
+                 <div class="loading-spinner"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 PES Institute of Technology and Management, Shivamogga.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const detailsContainer = document.getElementById('collegeDetailsContainer');
+            const urlParams = new URLSearchParams(window.location.search);
+            const collegeId = urlParams.get('id');
+
+            if (!collegeId) {
+                detailsContainer.innerHTML = '<h2>Invalid College ID</h2><p>Please go back to the colleges page and select a college.</p>';
+                return;
+            }
+
+            fetch(`http://localhost/career-guidance/backend/get_college_details.php?id=${collegeId}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'success') {
+                        const college = data.data;
+                        document.title = `${college.name} - Details`;
+                        let branchesHTML = '<li>No branch data available.</li>';
+                        if (college.branches && college.branches.length > 0) {
+                            branchesHTML = college.branches.map(branch => `
+                                <li><strong>${branch.branch_name}:</strong> ~${parseInt(branch.cutoff_rank).toLocaleString('en-IN')}</li>
+                            `).join('');
+                        }
+
+                        detailsContainer.innerHTML = `
+                            <h2>${college.name}</h2>
+                            <p><strong>Location:</strong> ${college.location}</p>
+                            <p><strong>Website:</strong> <a href="${college.website}" target="_blank">${college.website}</a></p>
+                            
+                            <div class="details-grid">
+                                <div class="details-card">
+                                    <h3>Key Information</h3>
+                                    <ul>
+                                        <li><strong>Avg. Annual Fees:</strong> ₹${parseInt(college.fees_per_year).toLocaleString('en-IN')}</li>
+                                        <li><strong>Highest Package:</strong> ${college.highest_placement_lpa} LPA</li>
+                                        <li><strong>Average Package:</strong> ${college.average_placement_lpa} LPA</li>
+                                    </ul>
+                                </div>
+                                <div class="details-card">
+                                    <h3>Branch Cutoffs (Estimated)</h3>
+                                    <ul>
+                                        ${branchesHTML}
+                                    </ul>
+                                </div>
+                            </div>
+                        `;
+                    } else {
+                        detailsContainer.innerHTML = `<h2>Error</h2><p>${data.message}</p>`;
+                    }
+                })
+                .catch(error => {
+                    console.error('Error fetching college details:', error);
+                    detailsContainer.innerHTML = '<h2>Error</h2><p>Could not fetch college details. Please check the backend connection.</p>';
+                });
+        });
+    </script>
+</body>
+</html>

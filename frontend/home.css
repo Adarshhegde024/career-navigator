@@ -1,0 +1,315 @@
+/* =================================================================
+   CSS FOR THE HOME PAGE
+   ================================================================= */
+   :root {
+    --primary-color-dark: #3b82f6;
+    --secondary-color-dark: #1f2937;
+    --background-color-dark: #111827;
+    --text-color-dark: #f9fafb;
+    --text-muted-dark: #9ca3af;
+    --border-color-dark: #374151;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
+    line-height: 1.6;
+    overflow-x: hidden; /* Prevent horizontal scroll from bubbles */
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2.5rem;
+}
+
+/* ------------------- KEYFRAME ANIMATIONS ------------------- */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bubbleDrift {
+    0% {
+        transform: translateY(0) translateX(0) scale(1);
+    }
+    50% {
+        transform: translateY(-20px) translateX(30px) scale(1.1);
+    }
+    100% {
+        transform: translateY(0) translateX(0) scale(1);
+    }
+}
+
+
+/* ------------------- HEADER & NAVIGATION ------------------- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-color-dark);
+    padding: 1rem 2.5rem;
+    border-bottom: 1px solid var(--border-color-dark);
+    position: relative;
+    z-index: 10;
+}
+.nav-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color-dark);
+    text-decoration: none;
+}
+.nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 0;
+}
+.nav-link {
+    text-decoration: none;
+    color: var(--text-muted-dark);
+    font-weight: 500;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.nav-link:hover {
+    color: white;
+    text-shadow: 0 0 8px rgba(59, 130, 246, 0.4);
+}
+
+.nav-link.active {
+    color: white;
+    border-bottom: 2px solid var(--primary-color-dark);
+}
+.nav-right-items {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.logout-button {
+    background: none;
+    border: 1px solid var(--text-muted-dark);
+    color: var(--text-muted-dark);
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.logout-button:hover {
+    background-color: var(--primary-color-dark);
+    color: white;
+    border-color: var(--primary-color-dark);
+}
+
+/* Bubble effect on logout button hover */
+.logout-button::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.4s ease-out, width 0.4s ease-out, height 0.4s ease-out;
+}
+
+.logout-button:hover::after {
+    width: 100px;
+    height: 100px;
+    transform: translate(-50%, -50%) scale(1);
+}
+        
+/* ------------------- HOME PAGE STYLES ------------------- */
+#home {
+    position: relative;
+    overflow: hidden; /* Keep bubbles contained */
+}
+
+/* Animated background bubbles */
+#home::before, #home::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    z-index: 0;
+    opacity: 0.15;
+    background: radial-gradient(circle, var(--primary-color-dark) 0%, transparent 70%);
+    animation: bubbleDrift 20s infinite ease-in-out;
+}
+
+#home::before {
+    width: 300px;
+    height: 300px;
+    top: -50px;
+    left: -100px;
+}
+
+#home::after {
+    width: 400px;
+    height: 400px;
+    bottom: -100px;
+    right: -150px;
+    animation-duration: 25s;
+    animation-delay: -5s;
+}
+
+#home .container {
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    position: relative; /* Ensure content is above bubbles */
+    z-index: 1;
+}
+#home h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    opacity: 0; /* Initial state for animation */
+    animation: fadeInUp 0.8s ease-out 0.2s forwards;
+}
+#home p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 1rem auto 2.5rem;
+    opacity: 0; /* Initial state for animation */
+    animation: fadeInUp 0.8s ease-out 0.5s forwards;
+}
+.home-search-container {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+    opacity: 0; /* Initial state for animation */
+    animation: fadeInUp 0.8s ease-out 0.8s forwards;
+}
+.home-search-container input {
+    width: 100%;
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    border: 1px solid var(--border-color-dark);
+    border-right: none;
+    border-radius: 25px 0 0 25px;
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
+    transition: all 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home-search-container input:focus {
+    outline: none;
+    border-color: var(--primary-color-dark);
+    background-color: var(--secondary-color-dark);
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.2);
+}
+.home-search-container button {
+    position: relative;
+    overflow: hidden;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    background-color: var(--primary-color-dark);
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0 25px 25px 0;
+    transition: all 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+}
+
+.home-search-container button:hover {
+    background-color: #2563eb;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(59, 130, 246, 0.5);
+}
+
+/* Bubble effect on button hover */
+.home-search-container button::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.4s ease-out, width 0.4s ease-out, height 0.4s ease-out;
+}
+
+.home-search-container button:hover::after {
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/* ------------------- RESPONSIVE DESIGN ------------------- */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 1rem;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    
+    .nav-menu {
+        gap: 1.5rem;
+    }
+    
+    #home h1 {
+        font-size: 2.5rem;
+    }
+    
+    #home p {
+        font-size: 1rem;
+        margin: 1rem 1rem 2rem;
+    }
+    
+    .home-search-container {
+        max-width: 400px;
+        margin: 0 1rem;
+    }
+    
+    .container {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-menu {
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+    }
+    
+    #home h1 {
+        font-size: 2rem;
+    }
+    
+    .home-search-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .home-search-container input,
+    .home-search-container button {
+        border-radius: 25px;
+        border-right: 1px solid var(--border-color-dark);
+    }
+}
+

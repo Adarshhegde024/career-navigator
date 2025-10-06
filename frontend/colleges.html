@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Explorer - CET Guidance</title>
+    <link rel="stylesheet" href="colleges.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="nav-brand">CET Guidance</a>
+            <ul class="nav-menu">
+                <li><a href="home.html" class="nav-link">Home</a></li>
+                <li><a href="colleges.html" class="nav-link active">Colleges</a></li>
+                <li><a href="recommendations.html" class="nav-link">Recommendations</a></li>
+                <li><a href="AiCounselor.html" class="nav-link">AI Counselor</a></li>
+                <li><a href="FIQ.html" class="nav-link">FAQ</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+            </ul>
+            <div class="nav-right-items">
+                <!-- In a real app, a theme switcher would need JavaScript -->
+                <a href="login.html" class="logout-button">Logout</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2 class="section-title">College Explorer</h2>
+            <div class="filters-container">
+                <div class="filter-group">
+                    <label>Search by Name</label>
+                    <input type="text" placeholder="e.g., PES Institute">
+                </div>
+                <div class="filter-group">
+                    <label>Filter by Location</label>
+                    <select>
+                        <option>All Locations</option>
+                        <option>Bengaluru</option>
+                        <option>Mysuru</option>
+                        <option>Shivamogga</option>
+                        <option>Tumakuru</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Filter by Course</label>
+                    <select>
+                        <option>All Courses</option>
+                        <option>CSE</option>
+                        <option>ISE</option>
+                        <option>ECE</option>
+                        <option>ME</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Sort By</label>
+                    <select>
+                        <option>Name (A-Z)</option>
+                        <option>Name (Z-A)</option>
+                        <option>Cutoff (Low to High)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="college-grid">
+                <!-- Example College Card 1 -->
+                <div class="college-card">
+                    <h3>B.N.M Institute of Technology</h3>
+                    <p><strong>Location:</strong> Bengaluru</p>
+                    <p><strong>Avg. CSE Cutoff:</strong> ~22000</p>
+                    <p><strong>Avg. Fees:</strong> ₹1,10,000/year</p>
+                </div>
+                <!-- Example College Card 2 -->
+                <div class="college-card">
+                    <h3>BMS College of Engineering</h3>
+                    <p><strong>Location:</strong> Bengaluru</p>
+                    <p><strong>Avg. CSE Cutoff:</strong> ~3000</p>
+                    <p><strong>Avg. Fees:</strong> ₹2,10,000/year</p>
+                </div>
+                <!-- Example College Card 3 -->
+                <div class="college-card">
+                    <h3>JSS Science and Technology University</h3>
+                    <p><strong>Location:</strong> Mysuru</p>
+                    <p><strong>Avg. CSE Cutoff:</strong> ~12000</p>
+                    <p><strong>Avg. Fees:</strong> ₹1,00,000/year</p>
+                </div>
+                 <!-- Example College Card 4 -->
+                <div class="college-card" onclick="openModal('pes')">
+                    <h3>PES Institute of Technology and Management</h3>
+                    <p><strong>Location:</strong> Shivamogga</p>
+                    <p><strong>Avg. CSE Cutoff:</strong> ~15000</p>
+                    <p><strong>Avg. Fees:</strong> ₹90,000/year</p>
+                </div>
+                <!-- Example College Card 5 -->
+                <div class="college-card">
+                    <h3>M.S Ramaiah Institute of Technology</h3>
+                    <p><strong>Location:</strong> Bengaluru</p>
+                    <p><strong>Avg. CSE Cutoff:</strong> ~5000</p>
+                    <p><strong>Avg. Fees:</strong> ₹2,50,000/year</p>
+                </div>
+                <!-- Example College Card 6 -->
+                <div class="college-card">
+                    <h3>RV College of Engineering</h3>
+                    <p><strong>Location:</strong> Bengaluru</p>
+                    <p><strong>Avg. CSE Cutoff:</strong> ~8000</p>
+                    <p><strong>Avg. Fees:</strong> ₹2,00,000/year</p>
+                </div>
+                <!-- Example College Card 7 -->
+                <div class="college-card">
+                    <h3>Dayananda Sagar College of Engineering</h3>
+                    <p><strong>Location:</strong> Bengaluru</p>
+                    <p><strong>Avg. CSE Cutoff:</strong> ~12000</p>
+                    <p><strong>Avg. Fees:</strong> ₹1,80,000/year</p>
+                </div>
+                <!-- Example College Card 8 -->
+                <div class="college-card">
+                    <h3>BMS Institute of Technology</h3>
+                    <p><strong>Location:</strong> Bengaluru</p>
+                    <p><strong>Avg. CSE Cutoff:</strong> ~18000</p>
+                    <p><strong>Avg. Fees:</strong> ₹1,20,000/year</p>
+                </div>
+                <!-- Example College Card 9 -->
+                <div class="college-card">
+                    <h3>Siddaganga Institute of Technology</h3>
+                    <p><strong>Location:</strong> Tumakuru</p>
+                    <p><strong>Avg. CSE Cutoff:</strong> ~25000</p>
+                    <p><strong>Avg. Fees:</strong> ₹80,000/year</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal for College Details -->
+    <div id="collegeModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modalTitle">PES Institute of Technology and Management</h2>
+            
+            <div class="college-info">
+                <p><strong>Location:</strong> <span id="modalLocation">Shivamogga</span></p>
+                <p><strong>Website:</strong> <a href="https://pesitm.ac.in/" target="_blank" id="modalWebsite">https://pesitm.ac.in/</a></p>
+                <ul>
+                    <li>Avg. Annual Fees: <span id="modalFees">₹90,000</span></li>
+                    <li>Highest Package: <span id="modalHighestPackage">12 LPA</span></li>
+                    <li>Average Package: <span id="modalAvgPackage">5 LPA</span></li>
+                </ul>
+            </div>
+            
+            <div class="branch-cutoffs">
+                <h3>Branch Cutoffs (Estimated)</h3>
+                <ul>
+                    <li>CSE (Computer Science Engineering): <span id="modalCSE">~15000</span></li>
+                    <li>ISE (Information Science Engineering): <span id="modalISE"></span></li>
+                    <li>ECE (Electronics and Communication Engineering): <span id="modalECE"></span></li>
+                </ul>
+            </div>
+            
+            <button class="get-ai-summary">Get AI Summary</button>
+        </div>
+    </div>
+
+    <script>
+        function openModal(collegeId) {
+            const modal = document.getElementById('collegeModal');
+            modal.style.display = 'block';
+            
+            // Set college data based on ID
+            if (collegeId === 'pes') {
+                document.getElementById('modalTitle').textContent = 'PES Institute of Technology and Management';
+                document.getElementById('modalLocation').textContent = 'Shivamogga';
+                document.getElementById('modalWebsite').href = 'https://pesitm.ac.in/';
+                document.getElementById('modalWebsite').textContent = 'https://pesitm.ac.in/';
+                document.getElementById('modalFees').textContent = '₹90,000';
+                document.getElementById('modalHighestPackage').textContent = '12 LPA';
+                document.getElementById('modalAvgPackage').textContent = '5 LPA';
+                document.getElementById('modalCSE').textContent = '~15000';
+                document.getElementById('modalISE').textContent = '~21000';
+                document.getElementById('modalECE').textContent = '~28000';
+            }
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('collegeModal');
+            modal.style.display = 'none';
+        }
+
+        // Close modal when clicking outside of it
+        window.onclick = function(event) {
+            const modal = document.getElementById('collegeModal');
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        }
+    </script>
+
+</body>
+</html>
+

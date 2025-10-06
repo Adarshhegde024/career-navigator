@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendations - CET Guidance</title>
+    <link rel="stylesheet" href="../frontend/recommendations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="nav-brand">CET Guidance</a>
+            <ul class="nav-menu">
+                <li><a href="home.php" class="nav-link">Home</a></li>
+                <li><a href="colleges.php" class="nav-link">Colleges</a></li>
+                <li><a href="recommendations.php" class="nav-link active">Recommendations</a></li>
+                <li><a href="AiCounselor.php" class="nav-link">AI Counselor</a></li>
+                <li><a href="FIQ.php" class="nav-link">FAQ</a></li>
+                <li><a href="about.php" class="nav-link">About</a></li>
+            </ul>
+            <div class="nav-right-items">
+                <a href="logout.php" class="logout-button">Logout</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2 class="section-title">Personalized College Recommendations</h2>
+            <p class="section-subtitle">Enter your rank and preferred branch to get a tailored list of college options.</p>
+
+            <form class="recommendation-form">
+                <div class="input-group">
+                    <label for="cet-rank">Enter your CET Rank</label>
+                    <input type="number" id="cet-rank" placeholder="e.g., 15000">
+                </div>
+                <div class="input-group">
+                    <label for="course-pref">Select Preferred Course</label>
+                    <select id="course-pref">
+                        <option value="cse">Computer Science & Engineering</option>
+                        <option value="ise">Information Science & Engineering</option>
+                        <option value="ece">Electronics & Communication</option>
+                        <option value="me">Mechanical Engineering</option>
+                        <option value="civil">Civil Engineering</option>
+                    </select>
+                </div>
+                <button type="submit">Get Recommendations</button>
+            </form>
+
+            <!-- Static placeholder for results -->
+            <div class="recommendation-results">
+                <div class="recommendation-category">
+                    <h3>Dream Choices</h3>
+                    <p>Colleges where admission is challenging but possible.</p>
+                    <ul>
+                        <li>RV College of Engineering</li>
+                        <li>BMS College of Engineering</li>
+                        <li>M S Ramaiah Institute of Technology</li>
+                    </ul>
+                </div>
+
+                <div class="recommendation-category">
+                    <h3>Target Choices</h3>
+                    <p>Colleges that are a good match for your rank.</p>
+                    <ul>
+                        <li>JSS Science and Technology University</li>
+                        <li>The National Institute of Engineering</li>
+                        <li>PES Institute of Technology and Management</li>
+                    </ul>
+                </div>
+
+                <div class="recommendation-category">
+                    <h3>Safe Choices</h3>
+                    <p>Colleges where you have a very high chance of admission.</p>
+                    <ul>
+                        <li>Siddaganga Institute of Technology</li>
+                        <li>B.N.M Institute of Technology</li>
+                        <li>CMR Institute of Technology</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+</body>
+</html>
+

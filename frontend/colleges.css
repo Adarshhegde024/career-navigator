@@ -1,0 +1,487 @@
+/* =================================================================
+   CSS FOR THE COLLEGES PAGE
+   ================================================================= */
+
+/* Light theme styling to match the design shown in images */
+:root {
+    --primary-color-dark: #3b82f6;
+    --secondary-color-dark: #1f2937;
+    --background-color-dark: #111827;
+    --text-color-dark: #f9fafb;
+    --text-muted-dark: #9ca3af;
+    --border-color-dark: #374151;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
+    line-height: 1.6;
+    overflow-x: hidden; /* Prevent horizontal scroll from bubbles */
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2.5rem;
+}
+
+/* ------------------- KEYFRAME ANIMATIONS ------------------- */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bubbleDrift {
+    0% {
+        transform: translateY(0) translateX(0) scale(1);
+    }
+    50% {
+        transform: translateY(-20px) translateX(30px) scale(1.1);
+    }
+    100% {
+        transform: translateY(0) translateX(0) scale(1);
+    }
+}
+
+@keyframes slideInFade {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* ------------------- HEADER & NAVIGATION ------------------- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-color-dark);
+    padding: 1rem 2.5rem;
+    border-bottom: 1px solid var(--border-color-dark);
+    position: relative;
+    z-index: 10;
+}
+.nav-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color-dark);
+    text-decoration: none;
+}
+.nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 0;
+}
+.nav-link {
+    text-decoration: none;
+    color: var(--text-muted-dark);
+    font-weight: 500;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+}
+.nav-link.active {
+    color: white;
+    border-bottom: 2px solid var(--primary-color-dark);
+}
+.nav-right-items {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.logout-button {
+    background: none;
+    border: 1px solid var(--text-muted-dark);
+    color: var(--text-muted-dark);
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+.logout-button:hover {
+    background-color: var(--primary-color-dark);
+    color: white;
+    border-color: var(--primary-color-dark);
+}
+
+/* Bubble effect on logout button hover */
+.logout-button::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.4s ease-out, width 0.4s ease-out, height 0.4s ease-out;
+}
+
+.logout-button:hover::after {
+    width: 100px;
+    height: 100px;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/* ------------------- COLLEGES PAGE STYLES ------------------- */
+
+/* Add animated background bubbles for colleges page */
+.container::before, .container::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    z-index: 0;
+    opacity: 0.1;
+    background: radial-gradient(circle, var(--primary-color-dark) 0%, transparent 70%);
+    animation: bubbleDrift 20s infinite ease-in-out;
+}
+
+.container::before {
+    width: 200px;
+    height: 200px;
+    top: -30px;
+    left: -80px;
+    animation-duration: 25s;
+}
+
+.container::after {
+    width: 250px;
+    height: 250px;
+    bottom: -50px;
+    right: -100px;
+    animation-duration: 30s;
+    animation-delay: -10s;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-color-dark);
+    margin-bottom: 2rem;
+    text-align: center;
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out 0.2s forwards;
+}
+
+.filters-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+    padding: 1.5rem;
+    background-color: var(--secondary-color-dark);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--border-color-dark);
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out 0.4s forwards;
+    position: relative;
+    overflow: hidden;
+}
+
+.filters-container::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: conic-gradient(from 0deg, transparent, var(--primary-color-dark), transparent);
+    animation: rotate 4s infinite linear;
+    opacity: 0.05;
+    z-index: -1;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.filter-group label {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-muted-dark);
+    font-weight: 500;
+    display: block;
+}
+
+.filter-group input,
+.filter-group select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.7rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color-dark);
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.filter-group input:focus,
+.filter-group select:focus {
+    outline: none;
+    border-color: var(--primary-color-dark);
+    background-color: var(--secondary-color-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.2);
+}
+
+.college-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out 0.6s forwards;
+}
+
+.college-card {
+    background: var(--background-color-dark);
+    border-radius: 12px;
+    padding: 1.5rem;
+    border-left: 4px solid var(--primary-color-dark);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    position: relative;
+    opacity: 0;
+    animation: slideInFade 0.6s ease-out forwards;
+    border: 1px solid var(--border-color-dark);
+    overflow: hidden;
+}
+
+.college-card:nth-child(1) { animation-delay: 0.1s; }
+.college-card:nth-child(2) { animation-delay: 0.2s; }
+.college-card:nth-child(3) { animation-delay: 0.3s; }
+.college-card:nth-child(4) { animation-delay: 0.4s; }
+.college-card:nth-child(5) { animation-delay: 0.5s; }
+.college-card:nth-child(6) { animation-delay: 0.6s; }
+
+.college-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.1), transparent);
+    transition: left 0.6s ease;
+    z-index: 0;
+}
+
+.college-card:hover::before {
+    left: 100%;
+}
+
+.college-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 12px 30px rgba(59, 130, 246, 0.2);
+    border-color: var(--primary-color-dark);
+}
+
+.college-card * {
+    position: relative;
+    z-index: 1;
+}
+
+.college-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: var(--primary-color-dark);
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.college-card:hover h3 {
+    color: var(--primary-color-dark);
+}
+
+.college-card p {
+    margin: 0.5rem 0;
+    color: var(--text-muted-dark);
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.college-card p strong {
+    color: var(--text-color-dark);
+
+}
+
+/* Modal styles for college details */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.modal-content {
+    background-color: var(--background-color-dark);
+    margin: 5% auto;
+    padding: 2rem;
+    border-radius: 16px;
+    width: 80%;
+    max-width: 700px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    position: relative;
+    border: 1px solid var(--border-color-dark);
+    animation: slideInDown 0.4s ease-out;
+    transform-origin: top center;
+}
+
+@keyframes slideInDown {
+    from { 
+        opacity: 0;
+        transform: translateY(-50px) scale(0.9);
+    }
+    to { 
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.close {
+    color: var(--text-muted-dark);
+    float: right;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 10;
+}
+
+.close:hover {
+    color: var(--text-color-dark);
+    transform: scale(1.1) rotate(90deg);
+}
+
+.modal h2 {
+    color: var(--primary-color-dark);
+    margin-top: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.modal .college-info,
+.modal .branch-cutoffs {
+    margin: 1.5rem 0;
+    background-color: var(--secondary-color-dark);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid var(--border-color-dark);
+}
+
+.modal .college-info li,
+.modal .branch-cutoffs li {
+    margin: 0.8rem 0;
+    color: var(--text-muted-dark);
+    font-size: 0.95rem;
+    list-style: none;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.modal .college-info li::before,
+.modal .branch-cutoffs li::before {
+    content: "▶";
+    color: var(--primary-color-dark);
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 0.8rem;
+}
+
+.modal a {
+    color: var(--primary-color-dark);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.modal a:hover {
+    color: var(--primary-color-dark);
+    text-decoration: underline;
+    text-shadow: 0 0 8px rgba(59, 130, 246, 0.4);
+}
+
+.get-ai-summary {
+    background: linear-gradient(135deg, var(--primary-color-dark), #1d4ed8);
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+}
+
+.get-ai-summary::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.4s ease-out, width 0.4s ease-out, height 0.4s ease-out;
+}
+
+.get-ai-summary:hover::before {
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.get-ai-summary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(59, 130, 246, 0.5);
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+}
