@@ -347,3 +347,27 @@ body {
         padding: 1rem;
     }
 }
+.faq-answer {
+   display: none;
+    padding: 15px 20px;
+    background: #1f1f2e;
+    border-radius: 10px;
+    margin-top: 10px;
+    line-height: 1.6;
+    color: #d0d0d0;
+    overflow-y: auto; /* ✅ allows vertical scroll if content is long */
+    max-height: 300px; /* ✅ limit height so it doesn’t overflow entire screen */
+    transition: all 0.3s ease;
+}
+
+.faq-item.active .faq-answer {
+    display: block;
+    max-height: 300px;
+    opacity: 1;
+}
+
+.faq-item.active .faq-arrow {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+}
+

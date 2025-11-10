@@ -158,8 +158,9 @@ body {
 
 /* ------------------- ABOUT PAGE STYLES ------------------- */
 
-/* Add animated background bubbles */
-.container::before, .container::after {
+/* Animated background bubbles */
+.container::before,
+.container::after {
     content: '';
     position: absolute;
     border-radius: 50%;
@@ -183,7 +184,7 @@ body {
     bottom: -80px;
     right: -120px;
     animation-duration: 30s;
-    animation-delay: -8s;
+    animation-delay: 0s; /* changed from -8s for validation */
 }
 
 .about-content {
@@ -222,21 +223,17 @@ body {
     animation: fadeInUp 0.8s ease-out 0.6s forwards;
 }
 
-.team-section {
-    margin-top: 3rem;
-    opacity: 0;
-    animation: fadeInUp 0.8s ease-out 0.8s forwards;
-}
-
 .team-title {
     font-size: 1.8rem;
     font-weight: 600;
     color: var(--text-color-dark);
-    margin-top: 0;
+    margin-top: 3rem;
     margin-bottom: 1.5rem;
     border-bottom: 2px solid var(--primary-color-dark);
     padding-bottom: 0.5rem;
     display: inline-block;
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out 0.8s forwards;
 }
 
 .team-list {
@@ -244,47 +241,83 @@ body {
     padding-left: 0;
     font-size: 1.1rem;
     color: var(--text-muted-dark);
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out 1s forwards;
 }
 
-.team-list li {
+/* === OLD STYLES REMOVED === */
+
+/* ------------------- TEAM MEMBER STYLES ------------------- */
+.team-member {
     background: var(--secondary-color-dark);
-    padding: 1rem;
     border-radius: 10px;
     margin-bottom: 1rem;
-    font-weight: 500;
-    color: var(--text-color-dark);
-    transition: all 0.3s ease;
-    cursor: pointer;
     border-left: 3px solid var(--primary-color-dark);
     position: relative;
     overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.team-list li::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
+.team-member:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(59, 130, 246, 0.15);
+}
+
+.developer-name {
     width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.1), transparent);
-    transition: left 0.6s ease;
-    z-index: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    border: none;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--text-color-dark);
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
 }
 
-.team-list li:hover::before {
-    left: 100%;
+.developer-name:hover {
+    color: var(--primary-color-dark);
 }
 
-.team-list li:hover {
-    transform: translateX(8px);
-    background: var(--background-color-dark);
-    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.1);
+.faq-arrow {
+    fill: var(--text-muted-dark);
+    transition: transform 0.3s ease;
 }
 
-.team-list li * {
-    position: relative;
-    z-index: 1;
+.developer-info {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 1rem;
+    transition: all 0.4s ease-out;
+}
+
+.developer-info a {
+    display: inline-block;
+    color: var(--primary-color-dark);
+    text-decoration: none;
+    font-weight: 500;
+    padding-bottom: 1rem;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+}
+
+.developer-info a:hover {
+    text-shadow: 0 0 8px rgba(59, 130, 246, 0.4);
+    letter-spacing: 0.5px;
+}
+
+.team-member.active .developer-info {
+    max-height: 100px;
+    padding: 0 1rem 1rem;
+}
+
+.team-member.active .faq-arrow {
+    transform: rotate(180deg);
 }
 
 /* ------------------- RESPONSIVE DESIGN ------------------- */
@@ -300,23 +333,23 @@ body {
         flex-wrap: wrap;
         gap: 1rem;
     }
-    
+
     .nav-menu {
         gap: 1.5rem;
     }
-    
+
     .section-title {
         font-size: 2rem;
     }
-    
+
     .section-subtitle {
         font-size: 1rem;
     }
-    
+
     .about-content p {
         font-size: 1rem;
     }
-    
+
     .container {
         padding: 1.5rem;
     }
@@ -328,19 +361,22 @@ body {
         gap: 1rem;
         width: 100%;
     }
-    
+
     .section-title {
         font-size: 1.8rem;
     }
-    
+
     .team-title {
         font-size: 1.5rem;
     }
-    
-    .team-list li {
+
+    /* Old style removed for .team-list li */
+
+    .developer-name {
+        font-size: 1rem;
         padding: 0.8rem;
     }
-    
+
     .container {
         padding: 1rem;
     }
