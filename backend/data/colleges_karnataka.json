@@ -1,0 +1,5282 @@
+[
+  {
+    "slug": "rv-college-of-engineering",
+    "name": "RV College of Engineering",
+    "location": "Bengaluru",
+    "fees": "₹3,00,000",
+    "website": "https://rvce.edu.in/",
+    "packages": {
+      "high": "70 LPA",
+      "avg": "18 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 1500,
+        "SC": 2175,
+        "ST": 2025,
+        "2A": 1724,
+        "3A": 1620
+      },
+      "ISE": {
+        "GM": 2200,
+        "SC": 3190,
+        "ST": 2970,
+        "2A": 2530,
+        "3A": 2376
+      },
+      "ECE": {
+        "GM": 3200,
+        "SC": 4640,
+        "ST": 4320,
+        "2A": 3679,
+        "3A": 3456
+      },
+      "AIML": {
+        "GM": 2000,
+        "SC": 2900,
+        "ST": 2700,
+        "2A": 2300,
+        "3A": 2160
+      },
+      "ME": {
+        "GM": 9000,
+        "SC": 13050,
+        "ST": 12150,
+        "2A": 10350,
+        "3A": 9720
+      }
+    }
+  },
+  {
+    "slug": "pes-university-rr-campus",
+    "name": "PES University RR Campus",
+    "location": "Bengaluru",
+    "fees": "₹3,00,000",
+    "website": "https://www.pes.edu/",
+    "packages": {
+      "high": "70 LPA",
+      "avg": "18 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 2100,
+        "SC": 3045,
+        "ST": 2835,
+        "2A": 2415,
+        "3A": 2268
+      },
+      "ISE": {
+        "GM": 2800,
+        "SC": 4060,
+        "ST": 3780,
+        "2A": 3219,
+        "3A": 3024
+      },
+      "ECE": {
+        "GM": 3800,
+        "SC": 5510,
+        "ST": 5130,
+        "2A": 4370,
+        "3A": 4104
+      },
+      "AIML": {
+        "GM": 2600,
+        "SC": 3770,
+        "ST": 3510,
+        "2A": 2989,
+        "3A": 2808
+      },
+      "ME": {
+        "GM": 10800,
+        "SC": 15660,
+        "ST": 14580,
+        "2A": 12419,
+        "3A": 11664
+      }
+    }
+  },
+  {
+    "slug": "bms-college-of-engineering",
+    "name": "BMS College of Engineering",
+    "location": "Bengaluru",
+    "fees": "₹3,00,000",
+    "website": "https://www.bmsce.ac.in/",
+    "packages": {
+      "high": "70 LPA",
+      "avg": "18 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 2700,
+        "SC": 3915,
+        "ST": 3645,
+        "2A": 3104,
+        "3A": 2916
+      },
+      "ISE": {
+        "GM": 3400,
+        "SC": 4930,
+        "ST": 4590,
+        "2A": 3909,
+        "3A": 3672
+      },
+      "ECE": {
+        "GM": 4400,
+        "SC": 6380,
+        "ST": 5940,
+        "2A": 5060,
+        "3A": 4752
+      },
+      "AIML": {
+        "GM": 3200,
+        "SC": 4640,
+        "ST": 4320,
+        "2A": 3679,
+        "3A": 3456
+      },
+      "ME": {
+        "GM": 12600,
+        "SC": 18270,
+        "ST": 17010,
+        "2A": 14489,
+        "3A": 13608
+      }
+    }
+  },
+  {
+    "slug": "m-s-ramaiah-institute-of-technology",
+    "name": "M.S. Ramaiah Institute of Technology",
+    "location": "Bengaluru",
+    "fees": "₹3,00,000",
+    "website": "https://www.msrit.edu/",
+    "packages": {
+      "high": "70 LPA",
+      "avg": "18 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 3300,
+        "SC": 4785,
+        "ST": 4455,
+        "2A": 3794,
+        "3A": 3564
+      },
+      "ISE": {
+        "GM": 4000,
+        "SC": 5800,
+        "ST": 5400,
+        "2A": 4600,
+        "3A": 4320
+      },
+      "ECE": {
+        "GM": 5000,
+        "SC": 7250,
+        "ST": 6750,
+        "2A": 5750,
+        "3A": 5400
+      },
+      "AIML": {
+        "GM": 3800,
+        "SC": 5510,
+        "ST": 5130,
+        "2A": 4370,
+        "3A": 4104
+      },
+      "ME": {
+        "GM": 14400,
+        "SC": 20880,
+        "ST": 19440,
+        "2A": 16560,
+        "3A": 15552
+      }
+    }
+  },
+  {
+    "slug": "bangalore-institute-of-technology",
+    "name": "Bangalore Institute of Technology",
+    "location": "Bengaluru",
+    "fees": "₹3,00,000",
+    "website": "https://bit-bangalore.edu.in/",
+    "packages": {
+      "high": "70 LPA",
+      "avg": "18 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 3900,
+        "SC": 5655,
+        "ST": 5265,
+        "2A": 4485,
+        "3A": 4212
+      },
+      "ISE": {
+        "GM": 4600,
+        "SC": 6670,
+        "ST": 6210,
+        "2A": 5290,
+        "3A": 4968
+      },
+      "ECE": {
+        "GM": 5600,
+        "SC": 8120,
+        "ST": 7560,
+        "2A": 6439,
+        "3A": 6048
+      },
+      "AIML": {
+        "GM": 4400,
+        "SC": 6380,
+        "ST": 5940,
+        "2A": 5060,
+        "3A": 4752
+      },
+      "ME": {
+        "GM": 16200,
+        "SC": 23490,
+        "ST": 21870,
+        "2A": 18630,
+        "3A": 17496
+      }
+    }
+  },
+  {
+    "slug": "university-visvesvaraya-college-of-engineering",
+    "name": "University Visvesvaraya College of Engineering",
+    "location": "Bengaluru",
+    "fees": "₹3,00,000",
+    "website": "https://uvce.ac.in/",
+    "packages": {
+      "high": "70 LPA",
+      "avg": "18 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 1500,
+        "SC": 2175,
+        "ST": 2025,
+        "2A": 1724,
+        "3A": 1620
+      },
+      "ISE": {
+        "GM": 2200,
+        "SC": 3190,
+        "ST": 2970,
+        "2A": 2530,
+        "3A": 2376
+      },
+      "ECE": {
+        "GM": 3200,
+        "SC": 4640,
+        "ST": 4320,
+        "2A": 3679,
+        "3A": 3456
+      },
+      "AIML": {
+        "GM": 2000,
+        "SC": 2900,
+        "ST": 2700,
+        "2A": 2300,
+        "3A": 2160
+      },
+      "ME": {
+        "GM": 9000,
+        "SC": 13050,
+        "ST": 12150,
+        "2A": 10350,
+        "3A": 9720
+      }
+    }
+  },
+  {
+    "slug": "jss-science-and-technology-university-sjce",
+    "name": "JSS Science and Technology University (SJCE)",
+    "location": "Mysuru",
+    "fees": "₹3,00,000",
+    "website": "https://jssstuniv.in/",
+    "packages": {
+      "high": "70 LPA",
+      "avg": "18 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 2100,
+        "SC": 3045,
+        "ST": 2835,
+        "2A": 2415,
+        "3A": 2268
+      },
+      "ISE": {
+        "GM": 2800,
+        "SC": 4060,
+        "ST": 3780,
+        "2A": 3219,
+        "3A": 3024
+      },
+      "ECE": {
+        "GM": 3800,
+        "SC": 5510,
+        "ST": 5130,
+        "2A": 4370,
+        "3A": 4104
+      },
+      "AIML": {
+        "GM": 2600,
+        "SC": 3770,
+        "ST": 3510,
+        "2A": 2989,
+        "3A": 2808
+      },
+      "ME": {
+        "GM": 10800,
+        "SC": 15660,
+        "ST": 14580,
+        "2A": 12419,
+        "3A": 11664
+      }
+    }
+  },
+  {
+    "slug": "national-institute-of-engineering",
+    "name": "National Institute of Engineering",
+    "location": "Mysuru",
+    "fees": "₹3,00,000",
+    "website": "https://nie.ac.in/",
+    "packages": {
+      "high": "70 LPA",
+      "avg": "18 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 2700,
+        "SC": 3915,
+        "ST": 3645,
+        "2A": 3104,
+        "3A": 2916
+      },
+      "ISE": {
+        "GM": 3400,
+        "SC": 4930,
+        "ST": 4590,
+        "2A": 3909,
+        "3A": 3672
+      },
+      "ECE": {
+        "GM": 4400,
+        "SC": 6380,
+        "ST": 5940,
+        "2A": 5060,
+        "3A": 4752
+      },
+      "AIML": {
+        "GM": 3200,
+        "SC": 4640,
+        "ST": 4320,
+        "2A": 3679,
+        "3A": 3456
+      },
+      "ME": {
+        "GM": 12600,
+        "SC": 18270,
+        "ST": 17010,
+        "2A": 14489,
+        "3A": 13608
+      }
+    }
+  },
+  {
+    "slug": "manipal-institute-of-technology",
+    "name": "Manipal Institute of Technology",
+    "location": "Udupi",
+    "fees": "₹3,00,000",
+    "website": "https://manipal.edu/mit/",
+    "packages": {
+      "high": "70 LPA",
+      "avg": "18 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 3300,
+        "SC": 4785,
+        "ST": 4455,
+        "2A": 3794,
+        "3A": 3564
+      },
+      "ISE": {
+        "GM": 4000,
+        "SC": 5800,
+        "ST": 5400,
+        "2A": 4600,
+        "3A": 4320
+      },
+      "ECE": {
+        "GM": 5000,
+        "SC": 7250,
+        "ST": 6750,
+        "2A": 5750,
+        "3A": 5400
+      },
+      "AIML": {
+        "GM": 3800,
+        "SC": 5510,
+        "ST": 5130,
+        "2A": 4370,
+        "3A": 4104
+      },
+      "ME": {
+        "GM": 14400,
+        "SC": 20880,
+        "ST": 19440,
+        "2A": 16560,
+        "3A": 15552
+      }
+    }
+  },
+  {
+    "slug": "kle-technological-university-bvb",
+    "name": "KLE Technological University (BVB)",
+    "location": "Hubballi",
+    "fees": "₹3,00,000",
+    "website": "https://www.kletech.ac.in/",
+    "packages": {
+      "high": "70 LPA",
+      "avg": "18 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 3900,
+        "SC": 5655,
+        "ST": 5265,
+        "2A": 4485,
+        "3A": 4212
+      },
+      "ISE": {
+        "GM": 4600,
+        "SC": 6670,
+        "ST": 6210,
+        "2A": 5290,
+        "3A": 4968
+      },
+      "ECE": {
+        "GM": 5600,
+        "SC": 8120,
+        "ST": 7560,
+        "2A": 6439,
+        "3A": 6048
+      },
+      "AIML": {
+        "GM": 4400,
+        "SC": 6380,
+        "ST": 5940,
+        "2A": 5060,
+        "3A": 4752
+      },
+      "ME": {
+        "GM": 16200,
+        "SC": 23490,
+        "ST": 21870,
+        "2A": 18630,
+        "3A": 17496
+      }
+    }
+  },
+  {
+    "slug": "sri-jayachamarajendra-college-of-engineering",
+    "name": "Sri Jayachamarajendra College of Engineering",
+    "location": "Mysuru",
+    "fees": "₹3,00,000",
+    "website": "https://sjce.ac.in/",
+    "packages": {
+      "high": "70 LPA",
+      "avg": "18 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 1500,
+        "SC": 2175,
+        "ST": 2025,
+        "2A": 1724,
+        "3A": 1620
+      },
+      "ISE": {
+        "GM": 2200,
+        "SC": 3190,
+        "ST": 2970,
+        "2A": 2530,
+        "3A": 2376
+      },
+      "ECE": {
+        "GM": 3200,
+        "SC": 4640,
+        "ST": 4320,
+        "2A": 3679,
+        "3A": 3456
+      },
+      "AIML": {
+        "GM": 2000,
+        "SC": 2900,
+        "ST": 2700,
+        "2A": 2300,
+        "3A": 2160
+      },
+      "ME": {
+        "GM": 9000,
+        "SC": 13050,
+        "ST": 12150,
+        "2A": 10350,
+        "3A": 9720
+      }
+    }
+  },
+  {
+    "slug": "pes-college-of-engineering-mandya",
+    "name": "PES College of Engineering Mandya",
+    "location": "Mandya",
+    "fees": "₹2,20,000",
+    "website": "https://pescemandya.org/",
+    "packages": {
+      "high": "40 LPA",
+      "avg": "10 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 5100,
+        "SC": 7395,
+        "ST": 6885,
+        "2A": 5865,
+        "3A": 5508
+      },
+      "ISE": {
+        "GM": 7100,
+        "SC": 10295,
+        "ST": 9585,
+        "2A": 8164,
+        "3A": 7668
+      },
+      "ECE": {
+        "GM": 9600,
+        "SC": 13920,
+        "ST": 12960,
+        "2A": 11040,
+        "3A": 10368
+      },
+      "AIML": {
+        "GM": 6100,
+        "SC": 8845,
+        "ST": 8235,
+        "2A": 7014,
+        "3A": 6588
+      },
+      "ME": {
+        "GM": 16800,
+        "SC": 24360,
+        "ST": 22680,
+        "2A": 19320,
+        "3A": 18144
+      }
+    }
+  },
+  {
+    "slug": "siddaganga-institute-of-technology",
+    "name": "Siddaganga Institute of Technology",
+    "location": "Tumakuru",
+    "fees": "₹2,20,000",
+    "website": "https://www.sit.ac.in/",
+    "packages": {
+      "high": "40 LPA",
+      "avg": "10 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 5700,
+        "SC": 8265,
+        "ST": 7695,
+        "2A": 6554,
+        "3A": 6156
+      },
+      "ISE": {
+        "GM": 7700,
+        "SC": 11165,
+        "ST": 10395,
+        "2A": 8855,
+        "3A": 8316
+      },
+      "ECE": {
+        "GM": 10200,
+        "SC": 14790,
+        "ST": 13770,
+        "2A": 11730,
+        "3A": 11016
+      },
+      "AIML": {
+        "GM": 6700,
+        "SC": 9715,
+        "ST": 9045,
+        "2A": 7704,
+        "3A": 7236
+      },
+      "ME": {
+        "GM": 18600,
+        "SC": 26970,
+        "ST": 25110,
+        "2A": 21390,
+        "3A": 20088
+      }
+    }
+  },
+  {
+    "slug": "malnad-college-of-engineering",
+    "name": "Malnad College of Engineering",
+    "location": "Hassan",
+    "fees": "₹2,20,000",
+    "website": "https://www.mcehassan.ac.in/",
+    "packages": {
+      "high": "40 LPA",
+      "avg": "10 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 6300,
+        "SC": 9135,
+        "ST": 8505,
+        "2A": 7244,
+        "3A": 6804
+      },
+      "ISE": {
+        "GM": 8300,
+        "SC": 12035,
+        "ST": 11205,
+        "2A": 9545,
+        "3A": 8964
+      },
+      "ECE": {
+        "GM": 10800,
+        "SC": 15660,
+        "ST": 14580,
+        "2A": 12419,
+        "3A": 11664
+      },
+      "AIML": {
+        "GM": 7300,
+        "SC": 10585,
+        "ST": 9855,
+        "2A": 8395,
+        "3A": 7884
+      },
+      "ME": {
+        "GM": 20400,
+        "SC": 29580,
+        "ST": 27540,
+        "2A": 23460,
+        "3A": 22032
+      }
+    }
+  },
+  {
+    "slug": "vidya-vardhaka-college-of-engineering",
+    "name": "Vidya Vardhaka College of Engineering",
+    "location": "Mysuru",
+    "fees": "₹2,20,000",
+    "website": "https://vvce.ac.in/",
+    "packages": {
+      "high": "40 LPA",
+      "avg": "10 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 6900,
+        "SC": 10005,
+        "ST": 9315,
+        "2A": 7934,
+        "3A": 7452
+      },
+      "ISE": {
+        "GM": 8900,
+        "SC": 12905,
+        "ST": 12015,
+        "2A": 10235,
+        "3A": 9612
+      },
+      "ECE": {
+        "GM": 11400,
+        "SC": 16530,
+        "ST": 15390,
+        "2A": 13109,
+        "3A": 12312
+      },
+      "AIML": {
+        "GM": 7900,
+        "SC": 11455,
+        "ST": 10665,
+        "2A": 9085,
+        "3A": 8532
+      },
+      "ME": {
+        "GM": 22200,
+        "SC": 32190,
+        "ST": 29970,
+        "2A": 25529,
+        "3A": 23976
+      }
+    }
+  },
+  {
+    "slug": "dr-ambedkar-institute-of-technology",
+    "name": "Dr. Ambedkar Institute of Technology",
+    "location": "Bengaluru",
+    "fees": "₹2,20,000",
+    "website": "https://drait.edu.in/",
+    "packages": {
+      "high": "40 LPA",
+      "avg": "10 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 4500,
+        "SC": 6525,
+        "ST": 6075,
+        "2A": 5175,
+        "3A": 4860
+      },
+      "ISE": {
+        "GM": 6500,
+        "SC": 9425,
+        "ST": 8775,
+        "2A": 7474,
+        "3A": 7020
+      },
+      "ECE": {
+        "GM": 9000,
+        "SC": 13050,
+        "ST": 12150,
+        "2A": 10350,
+        "3A": 9720
+      },
+      "AIML": {
+        "GM": 5500,
+        "SC": 7975,
+        "ST": 7425,
+        "2A": 6324,
+        "3A": 5940
+      },
+      "ME": {
+        "GM": 15000,
+        "SC": 21750,
+        "ST": 20250,
+        "2A": 17250,
+        "3A": 16200
+      }
+    }
+  },
+  {
+    "slug": "bms-institute-of-technology-and-management",
+    "name": "BMS Institute of Technology and Management",
+    "location": "Bengaluru",
+    "fees": "₹2,20,000",
+    "website": "https://bmsit.ac.in/",
+    "packages": {
+      "high": "40 LPA",
+      "avg": "10 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 5100,
+        "SC": 7395,
+        "ST": 6885,
+        "2A": 5865,
+        "3A": 5508
+      },
+      "ISE": {
+        "GM": 7100,
+        "SC": 10295,
+        "ST": 9585,
+        "2A": 8164,
+        "3A": 7668
+      },
+      "ECE": {
+        "GM": 9600,
+        "SC": 13920,
+        "ST": 12960,
+        "2A": 11040,
+        "3A": 10368
+      },
+      "AIML": {
+        "GM": 6100,
+        "SC": 8845,
+        "ST": 8235,
+        "2A": 7014,
+        "3A": 6588
+      },
+      "ME": {
+        "GM": 16800,
+        "SC": 24360,
+        "ST": 22680,
+        "2A": 19320,
+        "3A": 18144
+      }
+    }
+  },
+  {
+    "slug": "dayananda-sagar-college-of-engineering",
+    "name": "Dayananda Sagar College of Engineering",
+    "location": "Bengaluru",
+    "fees": "₹2,20,000",
+    "website": "https://dsce.edu.in/",
+    "packages": {
+      "high": "40 LPA",
+      "avg": "10 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 5700,
+        "SC": 8265,
+        "ST": 7695,
+        "2A": 6554,
+        "3A": 6156
+      },
+      "ISE": {
+        "GM": 7700,
+        "SC": 11165,
+        "ST": 10395,
+        "2A": 8855,
+        "3A": 8316
+      },
+      "ECE": {
+        "GM": 10200,
+        "SC": 14790,
+        "ST": 13770,
+        "2A": 11730,
+        "3A": 11016
+      },
+      "AIML": {
+        "GM": 6700,
+        "SC": 9715,
+        "ST": 9045,
+        "2A": 7704,
+        "3A": 7236
+      },
+      "ME": {
+        "GM": 18600,
+        "SC": 26970,
+        "ST": 25110,
+        "2A": 21390,
+        "3A": 20088
+      }
+    }
+  },
+  {
+    "slug": "sir-m-visvesvaraya-institute-of-technology",
+    "name": "Sir M. Visvesvaraya Institute of Technology",
+    "location": "Bengaluru",
+    "fees": "₹2,20,000",
+    "website": "https://www.sirmvit.edu/",
+    "packages": {
+      "high": "40 LPA",
+      "avg": "10 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 6300,
+        "SC": 9135,
+        "ST": 8505,
+        "2A": 7244,
+        "3A": 6804
+      },
+      "ISE": {
+        "GM": 8300,
+        "SC": 12035,
+        "ST": 11205,
+        "2A": 9545,
+        "3A": 8964
+      },
+      "ECE": {
+        "GM": 10800,
+        "SC": 15660,
+        "ST": 14580,
+        "2A": 12419,
+        "3A": 11664
+      },
+      "AIML": {
+        "GM": 7300,
+        "SC": 10585,
+        "ST": 9855,
+        "2A": 8395,
+        "3A": 7884
+      },
+      "ME": {
+        "GM": 20400,
+        "SC": 29580,
+        "ST": 27540,
+        "2A": 23460,
+        "3A": 22032
+      }
+    }
+  },
+  {
+    "slug": "nmam-institute-of-technology-nitte",
+    "name": "NMAM Institute of Technology Nitte",
+    "location": "Udupi",
+    "fees": "₹2,20,000",
+    "website": "https://nmamit.nitte.edu.in/",
+    "packages": {
+      "high": "40 LPA",
+      "avg": "10 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 6900,
+        "SC": 10005,
+        "ST": 9315,
+        "2A": 7934,
+        "3A": 7452
+      },
+      "ISE": {
+        "GM": 8900,
+        "SC": 12905,
+        "ST": 12015,
+        "2A": 10235,
+        "3A": 9612
+      },
+      "ECE": {
+        "GM": 11400,
+        "SC": 16530,
+        "ST": 15390,
+        "2A": 13109,
+        "3A": 12312
+      },
+      "AIML": {
+        "GM": 7900,
+        "SC": 11455,
+        "ST": 10665,
+        "2A": 9085,
+        "3A": 8532
+      },
+      "ME": {
+        "GM": 22200,
+        "SC": 32190,
+        "ST": 29970,
+        "2A": 25529,
+        "3A": 23976
+      }
+    }
+  },
+  {
+    "slug": "jain-faculty-of-engineering-and-technology",
+    "name": "Jain Faculty of Engineering and Technology",
+    "location": "Bengaluru",
+    "fees": "₹2,20,000",
+    "website": "https://www.jainuniversity.ac.in/",
+    "packages": {
+      "high": "40 LPA",
+      "avg": "10 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 4500,
+        "SC": 6525,
+        "ST": 6075,
+        "2A": 5175,
+        "3A": 4860
+      },
+      "ISE": {
+        "GM": 6500,
+        "SC": 9425,
+        "ST": 8775,
+        "2A": 7474,
+        "3A": 7020
+      },
+      "ECE": {
+        "GM": 9000,
+        "SC": 13050,
+        "ST": 12150,
+        "2A": 10350,
+        "3A": 9720
+      },
+      "AIML": {
+        "GM": 5500,
+        "SC": 7975,
+        "ST": 7425,
+        "2A": 6324,
+        "3A": 5940
+      },
+      "ME": {
+        "GM": 15000,
+        "SC": 21750,
+        "ST": 20250,
+        "2A": 17250,
+        "3A": 16200
+      }
+    }
+  },
+  {
+    "slug": "christ-university-faculty-of-engineering",
+    "name": "Christ University Faculty of Engineering",
+    "location": "Bengaluru",
+    "fees": "₹2,20,000",
+    "website": "https://christuniversity.in/engineering",
+    "packages": {
+      "high": "40 LPA",
+      "avg": "10 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 5100,
+        "SC": 7395,
+        "ST": 6885,
+        "2A": 5865,
+        "3A": 5508
+      },
+      "ISE": {
+        "GM": 7100,
+        "SC": 10295,
+        "ST": 9585,
+        "2A": 8164,
+        "3A": 7668
+      },
+      "ECE": {
+        "GM": 9600,
+        "SC": 13920,
+        "ST": 12960,
+        "2A": 11040,
+        "3A": 10368
+      },
+      "AIML": {
+        "GM": 6100,
+        "SC": 8845,
+        "ST": 8235,
+        "2A": 7014,
+        "3A": 6588
+      },
+      "ME": {
+        "GM": 16800,
+        "SC": 24360,
+        "ST": 22680,
+        "2A": 19320,
+        "3A": 18144
+      }
+    }
+  },
+  {
+    "slug": "reva-university-school-of-engineering",
+    "name": "Reva University School of Engineering",
+    "location": "Bengaluru",
+    "fees": "₹2,20,000",
+    "website": "https://www.reva.edu.in/",
+    "packages": {
+      "high": "40 LPA",
+      "avg": "10 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 5700,
+        "SC": 8265,
+        "ST": 7695,
+        "2A": 6554,
+        "3A": 6156
+      },
+      "ISE": {
+        "GM": 7700,
+        "SC": 11165,
+        "ST": 10395,
+        "2A": 8855,
+        "3A": 8316
+      },
+      "ECE": {
+        "GM": 10200,
+        "SC": 14790,
+        "ST": 13770,
+        "2A": 11730,
+        "3A": 11016
+      },
+      "AIML": {
+        "GM": 6700,
+        "SC": 9715,
+        "ST": 9045,
+        "2A": 7704,
+        "3A": 7236
+      },
+      "ME": {
+        "GM": 18600,
+        "SC": 26970,
+        "ST": 25110,
+        "2A": 21390,
+        "3A": 20088
+      }
+    }
+  },
+  {
+    "slug": "sjb-institute-of-technology",
+    "name": "SJB Institute of Technology",
+    "location": "Bengaluru",
+    "fees": "₹1,80,000",
+    "website": "https://sjbit.edu.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 13800,
+        "SC": 20010,
+        "ST": 18630,
+        "2A": 15869,
+        "3A": 14904
+      },
+      "ISE": {
+        "GM": 18800,
+        "SC": 27260,
+        "ST": 25380,
+        "2A": 21620,
+        "3A": 20304
+      },
+      "ECE": {
+        "GM": 23800,
+        "SC": 34510,
+        "ST": 32130,
+        "2A": 27369,
+        "3A": 25704
+      },
+      "AIML": {
+        "GM": 15800,
+        "SC": 22910,
+        "ST": 21330,
+        "2A": 18170,
+        "3A": 17064
+      },
+      "ME": {
+        "GM": 40400,
+        "SC": 58580,
+        "ST": 54540,
+        "2A": 46460,
+        "3A": 43632
+      }
+    }
+  },
+  {
+    "slug": "rns-institute-of-technology",
+    "name": "RNS Institute of Technology",
+    "location": "Bengaluru",
+    "fees": "₹1,80,000",
+    "website": "https://www.rnsit.ac.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 14400,
+        "SC": 20880,
+        "ST": 19440,
+        "2A": 16560,
+        "3A": 15552
+      },
+      "ISE": {
+        "GM": 19400,
+        "SC": 28130,
+        "ST": 26190,
+        "2A": 22310,
+        "3A": 20952
+      },
+      "ECE": {
+        "GM": 24400,
+        "SC": 35380,
+        "ST": 32940,
+        "2A": 28059,
+        "3A": 26352
+      },
+      "AIML": {
+        "GM": 16400,
+        "SC": 23780,
+        "ST": 22140,
+        "2A": 18860,
+        "3A": 17712
+      },
+      "ME": {
+        "GM": 42200,
+        "SC": 61190,
+        "ST": 56970,
+        "2A": 48529,
+        "3A": 45576
+      }
+    }
+  },
+  {
+    "slug": "cmr-institute-of-technology",
+    "name": "CMR Institute of Technology",
+    "location": "Bengaluru",
+    "fees": "₹1,80,000",
+    "website": "https://www.cmrit.ac.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 12000,
+        "SC": 17400,
+        "ST": 16200,
+        "2A": 13799,
+        "3A": 12960
+      },
+      "ISE": {
+        "GM": 17000,
+        "SC": 24650,
+        "ST": 22950,
+        "2A": 19550,
+        "3A": 18360
+      },
+      "ECE": {
+        "GM": 22000,
+        "SC": 31900,
+        "ST": 29700,
+        "2A": 25299,
+        "3A": 23760
+      },
+      "AIML": {
+        "GM": 14000,
+        "SC": 20300,
+        "ST": 18900,
+        "2A": 16099,
+        "3A": 15120
+      },
+      "ME": {
+        "GM": 35000,
+        "SC": 50750,
+        "ST": 47250,
+        "2A": 40250,
+        "3A": 37800
+      }
+    }
+  },
+  {
+    "slug": "new-horizon-college-of-engineering",
+    "name": "New Horizon College of Engineering",
+    "location": "Bengaluru",
+    "fees": "₹1,80,000",
+    "website": "https://newhorizonindia.edu/nhengineering/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 12600,
+        "SC": 18270,
+        "ST": 17010,
+        "2A": 14489,
+        "3A": 13608
+      },
+      "ISE": {
+        "GM": 17600,
+        "SC": 25520,
+        "ST": 23760,
+        "2A": 20240,
+        "3A": 19008
+      },
+      "ECE": {
+        "GM": 22600,
+        "SC": 32770,
+        "ST": 30510,
+        "2A": 25989,
+        "3A": 24408
+      },
+      "AIML": {
+        "GM": 14600,
+        "SC": 21170,
+        "ST": 19710,
+        "2A": 16790,
+        "3A": 15768
+      },
+      "ME": {
+        "GM": 36800,
+        "SC": 53360,
+        "ST": 49680,
+        "2A": 42320,
+        "3A": 39744
+      }
+    }
+  },
+  {
+    "slug": "nitte-meenakshi-institute-of-technology",
+    "name": "Nitte Meenakshi Institute of Technology",
+    "location": "Bengaluru",
+    "fees": "₹1,80,000",
+    "website": "https://www.nmit.ac.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 13200,
+        "SC": 19140,
+        "ST": 17820,
+        "2A": 15179,
+        "3A": 14256
+      },
+      "ISE": {
+        "GM": 18200,
+        "SC": 26390,
+        "ST": 24570,
+        "2A": 20930,
+        "3A": 19656
+      },
+      "ECE": {
+        "GM": 23200,
+        "SC": 33640,
+        "ST": 31320,
+        "2A": 26679,
+        "3A": 25056
+      },
+      "AIML": {
+        "GM": 15200,
+        "SC": 22040,
+        "ST": 20520,
+        "2A": 17480,
+        "3A": 16416
+      },
+      "ME": {
+        "GM": 38600,
+        "SC": 55970,
+        "ST": 52110,
+        "2A": 44390,
+        "3A": 41688
+      }
+    }
+  },
+  {
+    "slug": "acharya-institute-of-technology",
+    "name": "Acharya Institute of Technology",
+    "location": "Bengaluru",
+    "fees": "₹1,80,000",
+    "website": "https://acharya.ac.in/ait/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 13800,
+        "SC": 20010,
+        "ST": 18630,
+        "2A": 15869,
+        "3A": 14904
+      },
+      "ISE": {
+        "GM": 18800,
+        "SC": 27260,
+        "ST": 25380,
+        "2A": 21620,
+        "3A": 20304
+      },
+      "ECE": {
+        "GM": 23800,
+        "SC": 34510,
+        "ST": 32130,
+        "2A": 27369,
+        "3A": 25704
+      },
+      "AIML": {
+        "GM": 15800,
+        "SC": 22910,
+        "ST": 21330,
+        "2A": 18170,
+        "3A": 17064
+      },
+      "ME": {
+        "GM": 40400,
+        "SC": 58580,
+        "ST": 54540,
+        "2A": 46460,
+        "3A": 43632
+      }
+    }
+  },
+  {
+    "slug": "alliance-college-of-engineering-and-design",
+    "name": "Alliance College of Engineering and Design",
+    "location": "Bengaluru",
+    "fees": "₹1,80,000",
+    "website": "https://www.alliance.edu.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 14400,
+        "SC": 20880,
+        "ST": 19440,
+        "2A": 16560,
+        "3A": 15552
+      },
+      "ISE": {
+        "GM": 19400,
+        "SC": 28130,
+        "ST": 26190,
+        "2A": 22310,
+        "3A": 20952
+      },
+      "ECE": {
+        "GM": 24400,
+        "SC": 35380,
+        "ST": 32940,
+        "2A": 28059,
+        "3A": 26352
+      },
+      "AIML": {
+        "GM": 16400,
+        "SC": 23780,
+        "ST": 22140,
+        "2A": 18860,
+        "3A": 17712
+      },
+      "ME": {
+        "GM": 42200,
+        "SC": 61190,
+        "ST": 56970,
+        "2A": 48529,
+        "3A": 45576
+      }
+    }
+  },
+  {
+    "slug": "presidency-university-school-of-engineering",
+    "name": "Presidency University School of Engineering",
+    "location": "Bengaluru",
+    "fees": "₹1,80,000",
+    "website": "https://presidencyuniversity.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 12000,
+        "SC": 17400,
+        "ST": 16200,
+        "2A": 13799,
+        "3A": 12960
+      },
+      "ISE": {
+        "GM": 17000,
+        "SC": 24650,
+        "ST": 22950,
+        "2A": 19550,
+        "3A": 18360
+      },
+      "ECE": {
+        "GM": 22000,
+        "SC": 31900,
+        "ST": 29700,
+        "2A": 25299,
+        "3A": 23760
+      },
+      "AIML": {
+        "GM": 14000,
+        "SC": 20300,
+        "ST": 18900,
+        "2A": 16099,
+        "3A": 15120
+      },
+      "ME": {
+        "GM": 35000,
+        "SC": 50750,
+        "ST": 47250,
+        "2A": 40250,
+        "3A": 37800
+      }
+    }
+  },
+  {
+    "slug": "global-academy-of-technology",
+    "name": "Global Academy of Technology",
+    "location": "Bengaluru",
+    "fees": "₹1,80,000",
+    "website": "https://www.gat.ac.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 12600,
+        "SC": 18270,
+        "ST": 17010,
+        "2A": 14489,
+        "3A": 13608
+      },
+      "ISE": {
+        "GM": 17600,
+        "SC": 25520,
+        "ST": 23760,
+        "2A": 20240,
+        "3A": 19008
+      },
+      "ECE": {
+        "GM": 22600,
+        "SC": 32770,
+        "ST": 30510,
+        "2A": 25989,
+        "3A": 24408
+      },
+      "AIML": {
+        "GM": 14600,
+        "SC": 21170,
+        "ST": 19710,
+        "2A": 16790,
+        "3A": 15768
+      },
+      "ME": {
+        "GM": 36800,
+        "SC": 53360,
+        "ST": 49680,
+        "2A": 42320,
+        "3A": 39744
+      }
+    }
+  },
+  {
+    "slug": "sapthagiri-college-of-engineering",
+    "name": "Sapthagiri College of Engineering",
+    "location": "Bengaluru",
+    "fees": "₹1,80,000",
+    "website": "https://www.sapthagiri.edu.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 13200,
+        "SC": 19140,
+        "ST": 17820,
+        "2A": 15179,
+        "3A": 14256
+      },
+      "ISE": {
+        "GM": 18200,
+        "SC": 26390,
+        "ST": 24570,
+        "2A": 20930,
+        "3A": 19656
+      },
+      "ECE": {
+        "GM": 23200,
+        "SC": 33640,
+        "ST": 31320,
+        "2A": 26679,
+        "3A": 25056
+      },
+      "AIML": {
+        "GM": 15200,
+        "SC": 22040,
+        "ST": 20520,
+        "2A": 17480,
+        "3A": 16416
+      },
+      "ME": {
+        "GM": 38600,
+        "SC": 55970,
+        "ST": 52110,
+        "2A": 44390,
+        "3A": 41688
+      }
+    }
+  },
+  {
+    "slug": "pes-institute-of-technology-and-management",
+    "name": "PES Institute of Technology and Management",
+    "location": "Shivamogga",
+    "fees": "₹1,80,000",
+    "website": "https://pesitm.ac.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 13800,
+        "SC": 20010,
+        "ST": 18630,
+        "2A": 15869,
+        "3A": 14904
+      },
+      "ISE": {
+        "GM": 18800,
+        "SC": 27260,
+        "ST": 25380,
+        "2A": 21620,
+        "3A": 20304
+      },
+      "ECE": {
+        "GM": 23800,
+        "SC": 34510,
+        "ST": 32130,
+        "2A": 27369,
+        "3A": 25704
+      },
+      "AIML": {
+        "GM": 15800,
+        "SC": 22910,
+        "ST": 21330,
+        "2A": 18170,
+        "3A": 17064
+      },
+      "ME": {
+        "GM": 40400,
+        "SC": 58580,
+        "ST": 54540,
+        "2A": 46460,
+        "3A": 43632
+      }
+    }
+  },
+  {
+    "slug": "jawaharlal-nehru-national-college-of-engineering",
+    "name": "Jawaharlal Nehru National College of Engineering",
+    "location": "Shivamogga",
+    "fees": "₹1,80,000",
+    "website": "https://www.jnnce.ac.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 14400,
+        "SC": 20880,
+        "ST": 19440,
+        "2A": 16560,
+        "3A": 15552
+      },
+      "ISE": {
+        "GM": 19400,
+        "SC": 28130,
+        "ST": 26190,
+        "2A": 22310,
+        "3A": 20952
+      },
+      "ECE": {
+        "GM": 24400,
+        "SC": 35380,
+        "ST": 32940,
+        "2A": 28059,
+        "3A": 26352
+      },
+      "AIML": {
+        "GM": 16400,
+        "SC": 23780,
+        "ST": 22140,
+        "2A": 18860,
+        "3A": 17712
+      },
+      "ME": {
+        "GM": 42200,
+        "SC": 61190,
+        "ST": 56970,
+        "2A": 48529,
+        "3A": 45576
+      }
+    }
+  },
+  {
+    "slug": "sahyadri-college-of-engineering-and-management",
+    "name": "Sahyadri College of Engineering and Management",
+    "location": "Mangaluru",
+    "fees": "₹1,80,000",
+    "website": "https://sahyadri.edu.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 12000,
+        "SC": 17400,
+        "ST": 16200,
+        "2A": 13799,
+        "3A": 12960
+      },
+      "ISE": {
+        "GM": 17000,
+        "SC": 24650,
+        "ST": 22950,
+        "2A": 19550,
+        "3A": 18360
+      },
+      "ECE": {
+        "GM": 22000,
+        "SC": 31900,
+        "ST": 29700,
+        "2A": 25299,
+        "3A": 23760
+      },
+      "AIML": {
+        "GM": 14000,
+        "SC": 20300,
+        "ST": 18900,
+        "2A": 16099,
+        "3A": 15120
+      },
+      "ME": {
+        "GM": 35000,
+        "SC": 50750,
+        "ST": 47250,
+        "2A": 40250,
+        "3A": 37800
+      }
+    }
+  },
+  {
+    "slug": "st-joseph-engineering-college-mangaluru",
+    "name": "St Joseph Engineering College Mangaluru",
+    "location": "Mangaluru",
+    "fees": "₹1,80,000",
+    "website": "https://www.sjec.ac.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 12600,
+        "SC": 18270,
+        "ST": 17010,
+        "2A": 14489,
+        "3A": 13608
+      },
+      "ISE": {
+        "GM": 17600,
+        "SC": 25520,
+        "ST": 23760,
+        "2A": 20240,
+        "3A": 19008
+      },
+      "ECE": {
+        "GM": 22600,
+        "SC": 32770,
+        "ST": 30510,
+        "2A": 25989,
+        "3A": 24408
+      },
+      "AIML": {
+        "GM": 14600,
+        "SC": 21170,
+        "ST": 19710,
+        "2A": 16790,
+        "3A": 15768
+      },
+      "ME": {
+        "GM": 36800,
+        "SC": 53360,
+        "ST": 49680,
+        "2A": 42320,
+        "3A": 39744
+      }
+    }
+  },
+  {
+    "slug": "canara-engineering-college",
+    "name": "Canara Engineering College",
+    "location": "Mangaluru",
+    "fees": "₹1,80,000",
+    "website": "https://www.canaraengineering.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 13200,
+        "SC": 19140,
+        "ST": 17820,
+        "2A": 15179,
+        "3A": 14256
+      },
+      "ISE": {
+        "GM": 18200,
+        "SC": 26390,
+        "ST": 24570,
+        "2A": 20930,
+        "3A": 19656
+      },
+      "ECE": {
+        "GM": 23200,
+        "SC": 33640,
+        "ST": 31320,
+        "2A": 26679,
+        "3A": 25056
+      },
+      "AIML": {
+        "GM": 15200,
+        "SC": 22040,
+        "ST": 20520,
+        "2A": 17480,
+        "3A": 16416
+      },
+      "ME": {
+        "GM": 38600,
+        "SC": 55970,
+        "ST": 52110,
+        "2A": 44390,
+        "3A": 41688
+      }
+    }
+  },
+  {
+    "slug": "alva-s-institute-of-engineering-and-technology",
+    "name": "Alva's Institute of Engineering and Technology",
+    "location": "Moodbidri",
+    "fees": "₹1,80,000",
+    "website": "https://aiet.org.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 13800,
+        "SC": 20010,
+        "ST": 18630,
+        "2A": 15869,
+        "3A": 14904
+      },
+      "ISE": {
+        "GM": 18800,
+        "SC": 27260,
+        "ST": 25380,
+        "2A": 21620,
+        "3A": 20304
+      },
+      "ECE": {
+        "GM": 23800,
+        "SC": 34510,
+        "ST": 32130,
+        "2A": 27369,
+        "3A": 25704
+      },
+      "AIML": {
+        "GM": 15800,
+        "SC": 22910,
+        "ST": 21330,
+        "2A": 18170,
+        "3A": 17064
+      },
+      "ME": {
+        "GM": 40400,
+        "SC": 58580,
+        "ST": 54540,
+        "2A": 46460,
+        "3A": 43632
+      }
+    }
+  },
+  {
+    "slug": "srinivas-institute-of-technology",
+    "name": "Srinivas Institute of Technology",
+    "location": "Mangaluru",
+    "fees": "₹1,80,000",
+    "website": "https://www.sitmng.ac.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 14400,
+        "SC": 20880,
+        "ST": 19440,
+        "2A": 16560,
+        "3A": 15552
+      },
+      "ISE": {
+        "GM": 19400,
+        "SC": 28130,
+        "ST": 26190,
+        "2A": 22310,
+        "3A": 20952
+      },
+      "ECE": {
+        "GM": 24400,
+        "SC": 35380,
+        "ST": 32940,
+        "2A": 28059,
+        "3A": 26352
+      },
+      "AIML": {
+        "GM": 16400,
+        "SC": 23780,
+        "ST": 22140,
+        "2A": 18860,
+        "3A": 17712
+      },
+      "ME": {
+        "GM": 42200,
+        "SC": 61190,
+        "ST": 56970,
+        "2A": 48529,
+        "3A": 45576
+      }
+    }
+  },
+  {
+    "slug": "p-a-college-of-engineering",
+    "name": "P.A. College of Engineering",
+    "location": "Mangaluru",
+    "fees": "₹1,80,000",
+    "website": "https://www.pace.edu.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 12000,
+        "SC": 17400,
+        "ST": 16200,
+        "2A": 13799,
+        "3A": 12960
+      },
+      "ISE": {
+        "GM": 17000,
+        "SC": 24650,
+        "ST": 22950,
+        "2A": 19550,
+        "3A": 18360
+      },
+      "ECE": {
+        "GM": 22000,
+        "SC": 31900,
+        "ST": 29700,
+        "2A": 25299,
+        "3A": 23760
+      },
+      "AIML": {
+        "GM": 14000,
+        "SC": 20300,
+        "ST": 18900,
+        "2A": 16099,
+        "3A": 15120
+      },
+      "ME": {
+        "GM": 35000,
+        "SC": 50750,
+        "ST": 47250,
+        "2A": 40250,
+        "3A": 37800
+      }
+    }
+  },
+  {
+    "slug": "yenepoya-institute-of-technology",
+    "name": "Yenepoya Institute of Technology",
+    "location": "Moodbidri",
+    "fees": "₹1,80,000",
+    "website": "https://www.yit.edu.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 12600,
+        "SC": 18270,
+        "ST": 17010,
+        "2A": 14489,
+        "3A": 13608
+      },
+      "ISE": {
+        "GM": 17600,
+        "SC": 25520,
+        "ST": 23760,
+        "2A": 20240,
+        "3A": 19008
+      },
+      "ECE": {
+        "GM": 22600,
+        "SC": 32770,
+        "ST": 30510,
+        "2A": 25989,
+        "3A": 24408
+      },
+      "AIML": {
+        "GM": 14600,
+        "SC": 21170,
+        "ST": 19710,
+        "2A": 16790,
+        "3A": 15768
+      },
+      "ME": {
+        "GM": 36800,
+        "SC": 53360,
+        "ST": 49680,
+        "2A": 42320,
+        "3A": 39744
+      }
+    }
+  },
+  {
+    "slug": "sdm-college-of-engineering-and-technology",
+    "name": "SDM College of Engineering and Technology",
+    "location": "Dharwad",
+    "fees": "₹1,80,000",
+    "website": "https://www.sdm.ac.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 13200,
+        "SC": 19140,
+        "ST": 17820,
+        "2A": 15179,
+        "3A": 14256
+      },
+      "ISE": {
+        "GM": 18200,
+        "SC": 26390,
+        "ST": 24570,
+        "2A": 20930,
+        "3A": 19656
+      },
+      "ECE": {
+        "GM": 23200,
+        "SC": 33640,
+        "ST": 31320,
+        "2A": 26679,
+        "3A": 25056
+      },
+      "AIML": {
+        "GM": 15200,
+        "SC": 22040,
+        "ST": 20520,
+        "2A": 17480,
+        "3A": 16416
+      },
+      "ME": {
+        "GM": 38600,
+        "SC": 55970,
+        "ST": 52110,
+        "2A": 44390,
+        "3A": 41688
+      }
+    }
+  },
+  {
+    "slug": "basaveshwar-engineering-college-bagalkot",
+    "name": "Basaveshwar Engineering College Bagalkot",
+    "location": "Bagalkot",
+    "fees": "₹1,80,000",
+    "website": "https://www.becbgk.edu/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 13800,
+        "SC": 20010,
+        "ST": 18630,
+        "2A": 15869,
+        "3A": 14904
+      },
+      "ISE": {
+        "GM": 18800,
+        "SC": 27260,
+        "ST": 25380,
+        "2A": 21620,
+        "3A": 20304
+      },
+      "ECE": {
+        "GM": 23800,
+        "SC": 34510,
+        "ST": 32130,
+        "2A": 27369,
+        "3A": 25704
+      },
+      "AIML": {
+        "GM": 15800,
+        "SC": 22910,
+        "ST": 21330,
+        "2A": 18170,
+        "3A": 17064
+      },
+      "ME": {
+        "GM": 40400,
+        "SC": 58580,
+        "ST": 54540,
+        "2A": 46460,
+        "3A": 43632
+      }
+    }
+  },
+  {
+    "slug": "bapuji-institute-of-engineering-and-technology",
+    "name": "Bapuji Institute of Engineering and Technology",
+    "location": "Davangere",
+    "fees": "₹1,80,000",
+    "website": "https://bietdvg.edu/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 14400,
+        "SC": 20880,
+        "ST": 19440,
+        "2A": 16560,
+        "3A": 15552
+      },
+      "ISE": {
+        "GM": 19400,
+        "SC": 28130,
+        "ST": 26190,
+        "2A": 22310,
+        "3A": 20952
+      },
+      "ECE": {
+        "GM": 24400,
+        "SC": 35380,
+        "ST": 32940,
+        "2A": 28059,
+        "3A": 26352
+      },
+      "AIML": {
+        "GM": 16400,
+        "SC": 23780,
+        "ST": 22140,
+        "2A": 18860,
+        "3A": 17712
+      },
+      "ME": {
+        "GM": 42200,
+        "SC": 61190,
+        "ST": 56970,
+        "2A": 48529,
+        "3A": 45576
+      }
+    }
+  },
+  {
+    "slug": "university-bdt-college-of-engineering",
+    "name": "University BDT College of Engineering",
+    "location": "Davangere",
+    "fees": "₹1,80,000",
+    "website": "https://ubdtce.org/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 12000,
+        "SC": 17400,
+        "ST": 16200,
+        "2A": 13799,
+        "3A": 12960
+      },
+      "ISE": {
+        "GM": 17000,
+        "SC": 24650,
+        "ST": 22950,
+        "2A": 19550,
+        "3A": 18360
+      },
+      "ECE": {
+        "GM": 22000,
+        "SC": 31900,
+        "ST": 29700,
+        "2A": 25299,
+        "3A": 23760
+      },
+      "AIML": {
+        "GM": 14000,
+        "SC": 20300,
+        "ST": 18900,
+        "2A": 16099,
+        "3A": 15120
+      },
+      "ME": {
+        "GM": 35000,
+        "SC": 50750,
+        "ST": 47250,
+        "2A": 40250,
+        "3A": 37800
+      }
+    }
+  },
+  {
+    "slug": "ballari-institute-of-technology-and-management",
+    "name": "Ballari Institute of Technology and Management",
+    "location": "Ballari",
+    "fees": "₹1,80,000",
+    "website": "https://www.bits-bellary.org/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 12600,
+        "SC": 18270,
+        "ST": 17010,
+        "2A": 14489,
+        "3A": 13608
+      },
+      "ISE": {
+        "GM": 17600,
+        "SC": 25520,
+        "ST": 23760,
+        "2A": 20240,
+        "3A": 19008
+      },
+      "ECE": {
+        "GM": 22600,
+        "SC": 32770,
+        "ST": 30510,
+        "2A": 25989,
+        "3A": 24408
+      },
+      "AIML": {
+        "GM": 14600,
+        "SC": 21170,
+        "ST": 19710,
+        "2A": 16790,
+        "3A": 15768
+      },
+      "ME": {
+        "GM": 36800,
+        "SC": 53360,
+        "ST": 49680,
+        "2A": 42320,
+        "3A": 39744
+      }
+    }
+  },
+  {
+    "slug": "rao-bahadur-y-mahabaleshwarappa-engineering-college",
+    "name": "Rao Bahadur Y Mahabaleshwarappa Engineering College",
+    "location": "Ballari",
+    "fees": "₹1,80,000",
+    "website": "https://rymec.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 13200,
+        "SC": 19140,
+        "ST": 17820,
+        "2A": 15179,
+        "3A": 14256
+      },
+      "ISE": {
+        "GM": 18200,
+        "SC": 26390,
+        "ST": 24570,
+        "2A": 20930,
+        "3A": 19656
+      },
+      "ECE": {
+        "GM": 23200,
+        "SC": 33640,
+        "ST": 31320,
+        "2A": 26679,
+        "3A": 25056
+      },
+      "AIML": {
+        "GM": 15200,
+        "SC": 22040,
+        "ST": 20520,
+        "2A": 17480,
+        "3A": 16416
+      },
+      "ME": {
+        "GM": 38600,
+        "SC": 55970,
+        "ST": 52110,
+        "2A": 44390,
+        "3A": 41688
+      }
+    }
+  },
+  {
+    "slug": "poojya-doddappa-appa-college-of-engineering",
+    "name": "Poojya Doddappa Appa College of Engineering",
+    "location": "Kalaburagi",
+    "fees": "₹1,80,000",
+    "website": "https://pdaengg.com/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 13800,
+        "SC": 20010,
+        "ST": 18630,
+        "2A": 15869,
+        "3A": 14904
+      },
+      "ISE": {
+        "GM": 18800,
+        "SC": 27260,
+        "ST": 25380,
+        "2A": 21620,
+        "3A": 20304
+      },
+      "ECE": {
+        "GM": 23800,
+        "SC": 34510,
+        "ST": 32130,
+        "2A": 27369,
+        "3A": 25704
+      },
+      "AIML": {
+        "GM": 15800,
+        "SC": 22910,
+        "ST": 21330,
+        "2A": 18170,
+        "3A": 17064
+      },
+      "ME": {
+        "GM": 40400,
+        "SC": 58580,
+        "ST": 54540,
+        "2A": 46460,
+        "3A": 43632
+      }
+    }
+  },
+  {
+    "slug": "kls-gogte-institute-of-technology",
+    "name": "KLS Gogte Institute of Technology",
+    "location": "Belagavi",
+    "fees": "₹1,80,000",
+    "website": "https://git.edu/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 14400,
+        "SC": 20880,
+        "ST": 19440,
+        "2A": 16560,
+        "3A": 15552
+      },
+      "ISE": {
+        "GM": 19400,
+        "SC": 28130,
+        "ST": 26190,
+        "2A": 22310,
+        "3A": 20952
+      },
+      "ECE": {
+        "GM": 24400,
+        "SC": 35380,
+        "ST": 32940,
+        "2A": 28059,
+        "3A": 26352
+      },
+      "AIML": {
+        "GM": 16400,
+        "SC": 23780,
+        "ST": 22140,
+        "2A": 18860,
+        "3A": 17712
+      },
+      "ME": {
+        "GM": 42200,
+        "SC": 61190,
+        "ST": 56970,
+        "2A": 48529,
+        "3A": 45576
+      }
+    }
+  },
+  {
+    "slug": "angadi-institute-of-technology-and-management",
+    "name": "Angadi Institute of Technology and Management",
+    "location": "Belagavi",
+    "fees": "₹1,80,000",
+    "website": "https://aitmbelagavi.edu.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 12000,
+        "SC": 17400,
+        "ST": 16200,
+        "2A": 13799,
+        "3A": 12960
+      },
+      "ISE": {
+        "GM": 17000,
+        "SC": 24650,
+        "ST": 22950,
+        "2A": 19550,
+        "3A": 18360
+      },
+      "ECE": {
+        "GM": 22000,
+        "SC": 31900,
+        "ST": 29700,
+        "2A": 25299,
+        "3A": 23760
+      },
+      "AIML": {
+        "GM": 14000,
+        "SC": 20300,
+        "ST": 18900,
+        "2A": 16099,
+        "3A": 15120
+      },
+      "ME": {
+        "GM": 35000,
+        "SC": 50750,
+        "ST": 47250,
+        "2A": 40250,
+        "3A": 37800
+      }
+    }
+  },
+  {
+    "slug": "maratha-mandal-engineering-college",
+    "name": "Maratha Mandal Engineering College",
+    "location": "Belagavi",
+    "fees": "₹1,80,000",
+    "website": "http://www.mmec.edu.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 12600,
+        "SC": 18270,
+        "ST": 17010,
+        "2A": 14489,
+        "3A": 13608
+      },
+      "ISE": {
+        "GM": 17600,
+        "SC": 25520,
+        "ST": 23760,
+        "2A": 20240,
+        "3A": 19008
+      },
+      "ECE": {
+        "GM": 22600,
+        "SC": 32770,
+        "ST": 30510,
+        "2A": 25989,
+        "3A": 24408
+      },
+      "AIML": {
+        "GM": 14600,
+        "SC": 21170,
+        "ST": 19710,
+        "2A": 16790,
+        "3A": 15768
+      },
+      "ME": {
+        "GM": 36800,
+        "SC": 53360,
+        "ST": 49680,
+        "2A": 42320,
+        "3A": 39744
+      }
+    }
+  },
+  {
+    "slug": "guru-nanak-dev-engineering-college-bidar",
+    "name": "Guru Nanak Dev Engineering College Bidar",
+    "location": "Bidar",
+    "fees": "₹1,80,000",
+    "website": "https://gndecb.ac.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 13200,
+        "SC": 19140,
+        "ST": 17820,
+        "2A": 15179,
+        "3A": 14256
+      },
+      "ISE": {
+        "GM": 18200,
+        "SC": 26390,
+        "ST": 24570,
+        "2A": 20930,
+        "3A": 19656
+      },
+      "ECE": {
+        "GM": 23200,
+        "SC": 33640,
+        "ST": 31320,
+        "2A": 26679,
+        "3A": 25056
+      },
+      "AIML": {
+        "GM": 15200,
+        "SC": 22040,
+        "ST": 20520,
+        "2A": 17480,
+        "3A": 16416
+      },
+      "ME": {
+        "GM": 38600,
+        "SC": 55970,
+        "ST": 52110,
+        "2A": 44390,
+        "3A": 41688
+      }
+    }
+  },
+  {
+    "slug": "khaja-banda-nawaz-college-of-engineering",
+    "name": "Khaja Banda Nawaz College of Engineering",
+    "location": "Kalaburagi",
+    "fees": "₹1,80,000",
+    "website": "https://kbnce.edu.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 13800,
+        "SC": 20010,
+        "ST": 18630,
+        "2A": 15869,
+        "3A": 14904
+      },
+      "ISE": {
+        "GM": 18800,
+        "SC": 27260,
+        "ST": 25380,
+        "2A": 21620,
+        "3A": 20304
+      },
+      "ECE": {
+        "GM": 23800,
+        "SC": 34510,
+        "ST": 32130,
+        "2A": 27369,
+        "3A": 25704
+      },
+      "AIML": {
+        "GM": 15800,
+        "SC": 22910,
+        "ST": 21330,
+        "2A": 18170,
+        "3A": 17064
+      },
+      "ME": {
+        "GM": 40400,
+        "SC": 58580,
+        "ST": 54540,
+        "2A": 46460,
+        "3A": 43632
+      }
+    }
+  },
+  {
+    "slug": "sri-siddhartha-institute-of-technology",
+    "name": "Sri Siddhartha Institute of Technology",
+    "location": "Tumakuru",
+    "fees": "₹1,80,000",
+    "website": "https://ssit.edu.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 14400,
+        "SC": 20880,
+        "ST": 19440,
+        "2A": 16560,
+        "3A": 15552
+      },
+      "ISE": {
+        "GM": 19400,
+        "SC": 28130,
+        "ST": 26190,
+        "2A": 22310,
+        "3A": 20952
+      },
+      "ECE": {
+        "GM": 24400,
+        "SC": 35380,
+        "ST": 32940,
+        "2A": 28059,
+        "3A": 26352
+      },
+      "AIML": {
+        "GM": 16400,
+        "SC": 23780,
+        "ST": 22140,
+        "2A": 18860,
+        "3A": 17712
+      },
+      "ME": {
+        "GM": 42200,
+        "SC": 61190,
+        "ST": 56970,
+        "2A": 48529,
+        "3A": 45576
+      }
+    }
+  },
+  {
+    "slug": "adichunchanagiri-institute-of-technology",
+    "name": "Adichunchanagiri Institute of Technology",
+    "location": "Chikkamagaluru",
+    "fees": "₹1,80,000",
+    "website": "https://www.acitechnology.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 12000,
+        "SC": 17400,
+        "ST": 16200,
+        "2A": 13799,
+        "3A": 12960
+      },
+      "ISE": {
+        "GM": 17000,
+        "SC": 24650,
+        "ST": 22950,
+        "2A": 19550,
+        "3A": 18360
+      },
+      "ECE": {
+        "GM": 22000,
+        "SC": 31900,
+        "ST": 29700,
+        "2A": 25299,
+        "3A": 23760
+      },
+      "AIML": {
+        "GM": 14000,
+        "SC": 20300,
+        "ST": 18900,
+        "2A": 16099,
+        "3A": 15120
+      },
+      "ME": {
+        "GM": 35000,
+        "SC": 50750,
+        "ST": 47250,
+        "2A": 40250,
+        "3A": 37800
+      }
+    }
+  },
+  {
+    "slug": "gsss-institute-of-engineering-and-technology-for-women",
+    "name": "GSSS Institute of Engineering and Technology for Women",
+    "location": "Mysuru",
+    "fees": "₹1,80,000",
+    "website": "https://www.geethashishu.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 12600,
+        "SC": 18270,
+        "ST": 17010,
+        "2A": 14489,
+        "3A": 13608
+      },
+      "ISE": {
+        "GM": 17600,
+        "SC": 25520,
+        "ST": 23760,
+        "2A": 20240,
+        "3A": 19008
+      },
+      "ECE": {
+        "GM": 22600,
+        "SC": 32770,
+        "ST": 30510,
+        "2A": 25989,
+        "3A": 24408
+      },
+      "AIML": {
+        "GM": 14600,
+        "SC": 21170,
+        "ST": 19710,
+        "2A": 16790,
+        "3A": 15768
+      },
+      "ME": {
+        "GM": 36800,
+        "SC": 53360,
+        "ST": 49680,
+        "2A": 42320,
+        "3A": 39744
+      }
+    }
+  },
+  {
+    "slug": "vidya-vikas-institute-of-engineering-and-technology",
+    "name": "Vidya Vikas Institute of Engineering and Technology",
+    "location": "Mysuru",
+    "fees": "₹1,80,000",
+    "website": "https://vviethmysore.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 13200,
+        "SC": 19140,
+        "ST": 17820,
+        "2A": 15179,
+        "3A": 14256
+      },
+      "ISE": {
+        "GM": 18200,
+        "SC": 26390,
+        "ST": 24570,
+        "2A": 20930,
+        "3A": 19656
+      },
+      "ECE": {
+        "GM": 23200,
+        "SC": 33640,
+        "ST": 31320,
+        "2A": 26679,
+        "3A": 25056
+      },
+      "AIML": {
+        "GM": 15200,
+        "SC": 22040,
+        "ST": 20520,
+        "2A": 17480,
+        "3A": 16416
+      },
+      "ME": {
+        "GM": 38600,
+        "SC": 55970,
+        "ST": 52110,
+        "2A": 44390,
+        "3A": 41688
+      }
+    }
+  },
+  {
+    "slug": "maharaja-institute-of-technology-thandavapura",
+    "name": "Maharaja Institute of Technology Thandavapura",
+    "location": "Mysuru",
+    "fees": "₹1,80,000",
+    "website": "https://www.mitmysore.in/",
+    "packages": {
+      "high": "28 LPA",
+      "avg": "7 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 13800,
+        "SC": 20010,
+        "ST": 18630,
+        "2A": 15869,
+        "3A": 14904
+      },
+      "ISE": {
+        "GM": 18800,
+        "SC": 27260,
+        "ST": 25380,
+        "2A": 21620,
+        "3A": 20304
+      },
+      "ECE": {
+        "GM": 23800,
+        "SC": 34510,
+        "ST": 32130,
+        "2A": 27369,
+        "3A": 25704
+      },
+      "AIML": {
+        "GM": 15800,
+        "SC": 22910,
+        "ST": 21330,
+        "2A": 18170,
+        "3A": 17064
+      },
+      "ME": {
+        "GM": 40400,
+        "SC": 58580,
+        "ST": 54540,
+        "2A": 46460,
+        "3A": 43632
+      }
+    }
+  },
+  {
+    "slug": "government-engineering-college-hassan",
+    "name": "Government Engineering College Hassan",
+    "location": "Hassan",
+    "fees": "₹1,40,000",
+    "website": "https://www.gechassan.ac.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 24400,
+        "SC": 35380,
+        "ST": 32940,
+        "2A": 28059,
+        "3A": 26352
+      },
+      "ISE": {
+        "GM": 30400,
+        "SC": 44080,
+        "ST": 41040,
+        "2A": 34960,
+        "3A": 32832
+      },
+      "ECE": {
+        "GM": 38400,
+        "SC": 55680,
+        "ST": 51840,
+        "2A": 44160,
+        "3A": 41472
+      },
+      "AIML": {
+        "GM": 28400,
+        "SC": 41180,
+        "ST": 38340,
+        "2A": 32659,
+        "3A": 30672
+      },
+      "ME": {
+        "GM": 62200,
+        "SC": 90190,
+        "ST": 83970,
+        "2A": 71530,
+        "3A": 67176
+      }
+    }
+  },
+  {
+    "slug": "government-engineering-college-raichur",
+    "name": "Government Engineering College Raichur",
+    "location": "Raichur",
+    "fees": "₹1,40,000",
+    "website": "https://gecraichur.ac.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 22000,
+        "SC": 31900,
+        "ST": 29700,
+        "2A": 25299,
+        "3A": 23760
+      },
+      "ISE": {
+        "GM": 28000,
+        "SC": 40600,
+        "ST": 37800,
+        "2A": 32199,
+        "3A": 30240
+      },
+      "ECE": {
+        "GM": 36000,
+        "SC": 52200,
+        "ST": 48600,
+        "2A": 41400,
+        "3A": 38880
+      },
+      "AIML": {
+        "GM": 26000,
+        "SC": 37700,
+        "ST": 35100,
+        "2A": 29899,
+        "3A": 28080
+      },
+      "ME": {
+        "GM": 55000,
+        "SC": 79750,
+        "ST": 74250,
+        "2A": 63249,
+        "3A": 59400
+      }
+    }
+  },
+  {
+    "slug": "government-engineering-college-ramanagara",
+    "name": "Government Engineering College Ramanagara",
+    "location": "Ramanagara",
+    "fees": "₹1,40,000",
+    "website": "https://gecr.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 22600,
+        "SC": 32770,
+        "ST": 30510,
+        "2A": 25989,
+        "3A": 24408
+      },
+      "ISE": {
+        "GM": 28600,
+        "SC": 41470,
+        "ST": 38610,
+        "2A": 32890,
+        "3A": 30888
+      },
+      "ECE": {
+        "GM": 36600,
+        "SC": 53070,
+        "ST": 49410,
+        "2A": 42090,
+        "3A": 39528
+      },
+      "AIML": {
+        "GM": 26600,
+        "SC": 38570,
+        "ST": 35910,
+        "2A": 30589,
+        "3A": 28728
+      },
+      "ME": {
+        "GM": 56800,
+        "SC": 82360,
+        "ST": 76680,
+        "2A": 65319,
+        "3A": 61344
+      }
+    }
+  },
+  {
+    "slug": "government-engineering-college-chamarajanagar",
+    "name": "Government Engineering College Chamarajanagar",
+    "location": "Chamarajanagar",
+    "fees": "₹1,40,000",
+    "website": "https://geccj.ac.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 23200,
+        "SC": 33640,
+        "ST": 31320,
+        "2A": 26679,
+        "3A": 25056
+      },
+      "ISE": {
+        "GM": 29200,
+        "SC": 42340,
+        "ST": 39420,
+        "2A": 33580,
+        "3A": 31536
+      },
+      "ECE": {
+        "GM": 37200,
+        "SC": 53940,
+        "ST": 50220,
+        "2A": 42780,
+        "3A": 40176
+      },
+      "AIML": {
+        "GM": 27200,
+        "SC": 39440,
+        "ST": 36720,
+        "2A": 31279,
+        "3A": 29376
+      },
+      "ME": {
+        "GM": 58600,
+        "SC": 84970,
+        "ST": 79110,
+        "2A": 67390,
+        "3A": 63288
+      }
+    }
+  },
+  {
+    "slug": "government-engineering-college-krishnarajpet",
+    "name": "Government Engineering College Krishnarajpet",
+    "location": "Mandya",
+    "fees": "₹1,40,000",
+    "website": "https://gecck.ac.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 23800,
+        "SC": 34510,
+        "ST": 32130,
+        "2A": 27369,
+        "3A": 25704
+      },
+      "ISE": {
+        "GM": 29800,
+        "SC": 43210,
+        "ST": 40230,
+        "2A": 34270,
+        "3A": 32184
+      },
+      "ECE": {
+        "GM": 37800,
+        "SC": 54810,
+        "ST": 51030,
+        "2A": 43470,
+        "3A": 40824
+      },
+      "AIML": {
+        "GM": 27800,
+        "SC": 40310,
+        "ST": 37530,
+        "2A": 31969,
+        "3A": 30024
+      },
+      "ME": {
+        "GM": 60400,
+        "SC": 87580,
+        "ST": 81540,
+        "2A": 69460,
+        "3A": 65232
+      }
+    }
+  },
+  {
+    "slug": "sri-venkateshwara-college-of-engineering",
+    "name": "Sri Venkateshwara College of Engineering",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://www.srivenkateshwara.org/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 24400,
+        "SC": 35380,
+        "ST": 32940,
+        "2A": 28059,
+        "3A": 26352
+      },
+      "ISE": {
+        "GM": 30400,
+        "SC": 44080,
+        "ST": 41040,
+        "2A": 34960,
+        "3A": 32832
+      },
+      "ECE": {
+        "GM": 38400,
+        "SC": 55680,
+        "ST": 51840,
+        "2A": 44160,
+        "3A": 41472
+      },
+      "AIML": {
+        "GM": 28400,
+        "SC": 41180,
+        "ST": 38340,
+        "2A": 32659,
+        "3A": 30672
+      },
+      "ME": {
+        "GM": 62200,
+        "SC": 90190,
+        "ST": 83970,
+        "2A": 71530,
+        "3A": 67176
+      }
+    }
+  },
+  {
+    "slug": "jyothy-institute-of-technology",
+    "name": "Jyothy Institute of Technology",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://jyothyit.ac.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 22000,
+        "SC": 31900,
+        "ST": 29700,
+        "2A": 25299,
+        "3A": 23760
+      },
+      "ISE": {
+        "GM": 28000,
+        "SC": 40600,
+        "ST": 37800,
+        "2A": 32199,
+        "3A": 30240
+      },
+      "ECE": {
+        "GM": 36000,
+        "SC": 52200,
+        "ST": 48600,
+        "2A": 41400,
+        "3A": 38880
+      },
+      "AIML": {
+        "GM": 26000,
+        "SC": 37700,
+        "ST": 35100,
+        "2A": 29899,
+        "3A": 28080
+      },
+      "ME": {
+        "GM": 55000,
+        "SC": 79750,
+        "ST": 74250,
+        "2A": 63249,
+        "3A": 59400
+      }
+    }
+  },
+  {
+    "slug": "global-institute-of-management-and-technology",
+    "name": "Global Institute of Management and Technology",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://www.gimt.co.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 22600,
+        "SC": 32770,
+        "ST": 30510,
+        "2A": 25989,
+        "3A": 24408
+      },
+      "ISE": {
+        "GM": 28600,
+        "SC": 41470,
+        "ST": 38610,
+        "2A": 32890,
+        "3A": 30888
+      },
+      "ECE": {
+        "GM": 36600,
+        "SC": 53070,
+        "ST": 49410,
+        "2A": 42090,
+        "3A": 39528
+      },
+      "AIML": {
+        "GM": 26600,
+        "SC": 38570,
+        "ST": 35910,
+        "2A": 30589,
+        "3A": 28728
+      },
+      "ME": {
+        "GM": 56800,
+        "SC": 82360,
+        "ST": 76680,
+        "2A": 65319,
+        "3A": 61344
+      }
+    }
+  },
+  {
+    "slug": "hkbk-college-of-engineering",
+    "name": "HKBK College of Engineering",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://hkbk.edu.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 23200,
+        "SC": 33640,
+        "ST": 31320,
+        "2A": 26679,
+        "3A": 25056
+      },
+      "ISE": {
+        "GM": 29200,
+        "SC": 42340,
+        "ST": 39420,
+        "2A": 33580,
+        "3A": 31536
+      },
+      "ECE": {
+        "GM": 37200,
+        "SC": 53940,
+        "ST": 50220,
+        "2A": 42780,
+        "3A": 40176
+      },
+      "AIML": {
+        "GM": 27200,
+        "SC": 39440,
+        "ST": 36720,
+        "2A": 31279,
+        "3A": 29376
+      },
+      "ME": {
+        "GM": 58600,
+        "SC": 84970,
+        "ST": 79110,
+        "2A": 67390,
+        "3A": 63288
+      }
+    }
+  },
+  {
+    "slug": "mvj-college-of-engineering",
+    "name": "MVJ College of Engineering",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://mvjce.edu.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 23800,
+        "SC": 34510,
+        "ST": 32130,
+        "2A": 27369,
+        "3A": 25704
+      },
+      "ISE": {
+        "GM": 29800,
+        "SC": 43210,
+        "ST": 40230,
+        "2A": 34270,
+        "3A": 32184
+      },
+      "ECE": {
+        "GM": 37800,
+        "SC": 54810,
+        "ST": 51030,
+        "2A": 43470,
+        "3A": 40824
+      },
+      "AIML": {
+        "GM": 27800,
+        "SC": 40310,
+        "ST": 37530,
+        "2A": 31969,
+        "3A": 30024
+      },
+      "ME": {
+        "GM": 60400,
+        "SC": 87580,
+        "ST": 81540,
+        "2A": 69460,
+        "3A": 65232
+      }
+    }
+  },
+  {
+    "slug": "east-point-college-of-engineering-and-technology",
+    "name": "East Point College of Engineering and Technology",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://epcet.edu.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 24400,
+        "SC": 35380,
+        "ST": 32940,
+        "2A": 28059,
+        "3A": 26352
+      },
+      "ISE": {
+        "GM": 30400,
+        "SC": 44080,
+        "ST": 41040,
+        "2A": 34960,
+        "3A": 32832
+      },
+      "ECE": {
+        "GM": 38400,
+        "SC": 55680,
+        "ST": 51840,
+        "2A": 44160,
+        "3A": 41472
+      },
+      "AIML": {
+        "GM": 28400,
+        "SC": 41180,
+        "ST": 38340,
+        "2A": 32659,
+        "3A": 30672
+      },
+      "ME": {
+        "GM": 62200,
+        "SC": 90190,
+        "ST": 83970,
+        "2A": 71530,
+        "3A": 67176
+      }
+    }
+  },
+  {
+    "slug": "ks-institute-of-technology",
+    "name": "KS Institute of Technology",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://www.ksit.ac.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 22000,
+        "SC": 31900,
+        "ST": 29700,
+        "2A": 25299,
+        "3A": 23760
+      },
+      "ISE": {
+        "GM": 28000,
+        "SC": 40600,
+        "ST": 37800,
+        "2A": 32199,
+        "3A": 30240
+      },
+      "ECE": {
+        "GM": 36000,
+        "SC": 52200,
+        "ST": 48600,
+        "2A": 41400,
+        "3A": 38880
+      },
+      "AIML": {
+        "GM": 26000,
+        "SC": 37700,
+        "ST": 35100,
+        "2A": 29899,
+        "3A": 28080
+      },
+      "ME": {
+        "GM": 55000,
+        "SC": 79750,
+        "ST": 74250,
+        "2A": 63249,
+        "3A": 59400
+      }
+    }
+  },
+  {
+    "slug": "advanced-institute-of-technology",
+    "name": "Advanced Institute of Technology",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://www.aiet.edu.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 22600,
+        "SC": 32770,
+        "ST": 30510,
+        "2A": 25989,
+        "3A": 24408
+      },
+      "ISE": {
+        "GM": 28600,
+        "SC": 41470,
+        "ST": 38610,
+        "2A": 32890,
+        "3A": 30888
+      },
+      "ECE": {
+        "GM": 36600,
+        "SC": 53070,
+        "ST": 49410,
+        "2A": 42090,
+        "3A": 39528
+      },
+      "AIML": {
+        "GM": 26600,
+        "SC": 38570,
+        "ST": 35910,
+        "2A": 30589,
+        "3A": 28728
+      },
+      "ME": {
+        "GM": 56800,
+        "SC": 82360,
+        "ST": 76680,
+        "2A": 65319,
+        "3A": 61344
+      }
+    }
+  },
+  {
+    "slug": "amc-engineering-college",
+    "name": "AMC Engineering College",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://www.amcgroup.edu.in/amec/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 23200,
+        "SC": 33640,
+        "ST": 31320,
+        "2A": 26679,
+        "3A": 25056
+      },
+      "ISE": {
+        "GM": 29200,
+        "SC": 42340,
+        "ST": 39420,
+        "2A": 33580,
+        "3A": 31536
+      },
+      "ECE": {
+        "GM": 37200,
+        "SC": 53940,
+        "ST": 50220,
+        "2A": 42780,
+        "3A": 40176
+      },
+      "AIML": {
+        "GM": 27200,
+        "SC": 39440,
+        "ST": 36720,
+        "2A": 31279,
+        "3A": 29376
+      },
+      "ME": {
+        "GM": 58600,
+        "SC": 84970,
+        "ST": 79110,
+        "2A": 67390,
+        "3A": 63288
+      }
+    }
+  },
+  {
+    "slug": "atria-institute-of-technology",
+    "name": "Atria Institute of Technology",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://atria.edu/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 23800,
+        "SC": 34510,
+        "ST": 32130,
+        "2A": 27369,
+        "3A": 25704
+      },
+      "ISE": {
+        "GM": 29800,
+        "SC": 43210,
+        "ST": 40230,
+        "2A": 34270,
+        "3A": 32184
+      },
+      "ECE": {
+        "GM": 37800,
+        "SC": 54810,
+        "ST": 51030,
+        "2A": 43470,
+        "3A": 40824
+      },
+      "AIML": {
+        "GM": 27800,
+        "SC": 40310,
+        "ST": 37530,
+        "2A": 31969,
+        "3A": 30024
+      },
+      "ME": {
+        "GM": 60400,
+        "SC": 87580,
+        "ST": 81540,
+        "2A": 69460,
+        "3A": 65232
+      }
+    }
+  },
+  {
+    "slug": "cambridge-institute-of-technology",
+    "name": "Cambridge Institute of Technology",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://www.cambridge.edu.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 24400,
+        "SC": 35380,
+        "ST": 32940,
+        "2A": 28059,
+        "3A": 26352
+      },
+      "ISE": {
+        "GM": 30400,
+        "SC": 44080,
+        "ST": 41040,
+        "2A": 34960,
+        "3A": 32832
+      },
+      "ECE": {
+        "GM": 38400,
+        "SC": 55680,
+        "ST": 51840,
+        "2A": 44160,
+        "3A": 41472
+      },
+      "AIML": {
+        "GM": 28400,
+        "SC": 41180,
+        "ST": 38340,
+        "2A": 32659,
+        "3A": 30672
+      },
+      "ME": {
+        "GM": 62200,
+        "SC": 90190,
+        "ST": 83970,
+        "2A": 71530,
+        "3A": 67176
+      }
+    }
+  },
+  {
+    "slug": "don-bosco-institute-of-technology-bengaluru",
+    "name": "Don Bosco Institute of Technology Bengaluru",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://www.dbit.co.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 22000,
+        "SC": 31900,
+        "ST": 29700,
+        "2A": 25299,
+        "3A": 23760
+      },
+      "ISE": {
+        "GM": 28000,
+        "SC": 40600,
+        "ST": 37800,
+        "2A": 32199,
+        "3A": 30240
+      },
+      "ECE": {
+        "GM": 36000,
+        "SC": 52200,
+        "ST": 48600,
+        "2A": 41400,
+        "3A": 38880
+      },
+      "AIML": {
+        "GM": 26000,
+        "SC": 37700,
+        "ST": 35100,
+        "2A": 29899,
+        "3A": 28080
+      },
+      "ME": {
+        "GM": 55000,
+        "SC": 79750,
+        "ST": 74250,
+        "2A": 63249,
+        "3A": 59400
+      }
+    }
+  },
+  {
+    "slug": "brindavan-college-of-engineering",
+    "name": "Brindavan College of Engineering",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://www.brindavancollege.com/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 22600,
+        "SC": 32770,
+        "ST": 30510,
+        "2A": 25989,
+        "3A": 24408
+      },
+      "ISE": {
+        "GM": 28600,
+        "SC": 41470,
+        "ST": 38610,
+        "2A": 32890,
+        "3A": 30888
+      },
+      "ECE": {
+        "GM": 36600,
+        "SC": 53070,
+        "ST": 49410,
+        "2A": 42090,
+        "3A": 39528
+      },
+      "AIML": {
+        "GM": 26600,
+        "SC": 38570,
+        "ST": 35910,
+        "2A": 30589,
+        "3A": 28728
+      },
+      "ME": {
+        "GM": 56800,
+        "SC": 82360,
+        "ST": 76680,
+        "2A": 65319,
+        "3A": 61344
+      }
+    }
+  },
+  {
+    "slug": "btl-institute-of-technology",
+    "name": "BTL Institute of Technology",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://btlit.ac.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 23200,
+        "SC": 33640,
+        "ST": 31320,
+        "2A": 26679,
+        "3A": 25056
+      },
+      "ISE": {
+        "GM": 29200,
+        "SC": 42340,
+        "ST": 39420,
+        "2A": 33580,
+        "3A": 31536
+      },
+      "ECE": {
+        "GM": 37200,
+        "SC": 53940,
+        "ST": 50220,
+        "2A": 42780,
+        "3A": 40176
+      },
+      "AIML": {
+        "GM": 27200,
+        "SC": 39440,
+        "ST": 36720,
+        "2A": 31279,
+        "3A": 29376
+      },
+      "ME": {
+        "GM": 58600,
+        "SC": 84970,
+        "ST": 79110,
+        "2A": 67390,
+        "3A": 63288
+      }
+    }
+  },
+  {
+    "slug": "gopalan-college-of-engineering-and-management",
+    "name": "Gopalan College of Engineering and Management",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://www.gopalancolleges.com/gcem/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 23800,
+        "SC": 34510,
+        "ST": 32130,
+        "2A": 27369,
+        "3A": 25704
+      },
+      "ISE": {
+        "GM": 29800,
+        "SC": 43210,
+        "ST": 40230,
+        "2A": 34270,
+        "3A": 32184
+      },
+      "ECE": {
+        "GM": 37800,
+        "SC": 54810,
+        "ST": 51030,
+        "2A": 43470,
+        "3A": 40824
+      },
+      "AIML": {
+        "GM": 27800,
+        "SC": 40310,
+        "ST": 37530,
+        "2A": 31969,
+        "3A": 30024
+      },
+      "ME": {
+        "GM": 60400,
+        "SC": 87580,
+        "ST": 81540,
+        "2A": 69460,
+        "3A": 65232
+      }
+    }
+  },
+  {
+    "slug": "sri-sairam-college-of-engineering",
+    "name": "Sri Sairam College of Engineering",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://sairamgroup.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 24400,
+        "SC": 35380,
+        "ST": 32940,
+        "2A": 28059,
+        "3A": 26352
+      },
+      "ISE": {
+        "GM": 30400,
+        "SC": 44080,
+        "ST": 41040,
+        "2A": 34960,
+        "3A": 32832
+      },
+      "ECE": {
+        "GM": 38400,
+        "SC": 55680,
+        "ST": 51840,
+        "2A": 44160,
+        "3A": 41472
+      },
+      "AIML": {
+        "GM": 28400,
+        "SC": 41180,
+        "ST": 38340,
+        "2A": 32659,
+        "3A": 30672
+      },
+      "ME": {
+        "GM": 62200,
+        "SC": 90190,
+        "ST": 83970,
+        "2A": 71530,
+        "3A": 67176
+      }
+    }
+  },
+  {
+    "slug": "r-l-jalappa-institute-of-technology",
+    "name": "R.L. Jalappa Institute of Technology",
+    "location": "Doddaballapur",
+    "fees": "₹1,40,000",
+    "website": "https://rljit.ac.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 22000,
+        "SC": 31900,
+        "ST": 29700,
+        "2A": 25299,
+        "3A": 23760
+      },
+      "ISE": {
+        "GM": 28000,
+        "SC": 40600,
+        "ST": 37800,
+        "2A": 32199,
+        "3A": 30240
+      },
+      "ECE": {
+        "GM": 36000,
+        "SC": 52200,
+        "ST": 48600,
+        "2A": 41400,
+        "3A": 38880
+      },
+      "AIML": {
+        "GM": 26000,
+        "SC": 37700,
+        "ST": 35100,
+        "2A": 29899,
+        "3A": 28080
+      },
+      "ME": {
+        "GM": 55000,
+        "SC": 79750,
+        "ST": 74250,
+        "2A": 63249,
+        "3A": 59400
+      }
+    }
+  },
+  {
+    "slug": "nagarjuna-college-of-engineering-and-technology",
+    "name": "Nagarjuna College of Engineering and Technology",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://ncet.co.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 22600,
+        "SC": 32770,
+        "ST": 30510,
+        "2A": 25989,
+        "3A": 24408
+      },
+      "ISE": {
+        "GM": 28600,
+        "SC": 41470,
+        "ST": 38610,
+        "2A": 32890,
+        "3A": 30888
+      },
+      "ECE": {
+        "GM": 36600,
+        "SC": 53070,
+        "ST": 49410,
+        "2A": 42090,
+        "3A": 39528
+      },
+      "AIML": {
+        "GM": 26600,
+        "SC": 38570,
+        "ST": 35910,
+        "2A": 30589,
+        "3A": 28728
+      },
+      "ME": {
+        "GM": 56800,
+        "SC": 82360,
+        "ST": 76680,
+        "2A": 65319,
+        "3A": 61344
+      }
+    }
+  },
+  {
+    "slug": "t-john-institute-of-technology",
+    "name": "T. John Institute of Technology",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://www.tjohncollege.com/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 23200,
+        "SC": 33640,
+        "ST": 31320,
+        "2A": 26679,
+        "3A": 25056
+      },
+      "ISE": {
+        "GM": 29200,
+        "SC": 42340,
+        "ST": 39420,
+        "2A": 33580,
+        "3A": 31536
+      },
+      "ECE": {
+        "GM": 37200,
+        "SC": 53940,
+        "ST": 50220,
+        "2A": 42780,
+        "3A": 40176
+      },
+      "AIML": {
+        "GM": 27200,
+        "SC": 39440,
+        "ST": 36720,
+        "2A": 31279,
+        "3A": 29376
+      },
+      "ME": {
+        "GM": 58600,
+        "SC": 84970,
+        "ST": 79110,
+        "2A": 67390,
+        "3A": 63288
+      }
+    }
+  },
+  {
+    "slug": "sri-revana-siddeshwara-institute-of-technology",
+    "name": "Sri Revana Siddeshwara Institute of Technology",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://srsit.ac.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 23800,
+        "SC": 34510,
+        "ST": 32130,
+        "2A": 27369,
+        "3A": 25704
+      },
+      "ISE": {
+        "GM": 29800,
+        "SC": 43210,
+        "ST": 40230,
+        "2A": 34270,
+        "3A": 32184
+      },
+      "ECE": {
+        "GM": 37800,
+        "SC": 54810,
+        "ST": 51030,
+        "2A": 43470,
+        "3A": 40824
+      },
+      "AIML": {
+        "GM": 27800,
+        "SC": 40310,
+        "ST": 37530,
+        "2A": 31969,
+        "3A": 30024
+      },
+      "ME": {
+        "GM": 60400,
+        "SC": 87580,
+        "ST": 81540,
+        "2A": 69460,
+        "3A": 65232
+      }
+    }
+  },
+  {
+    "slug": "kristu-jayanti-college-of-engineering-and-technology",
+    "name": "Kristu Jayanti College of Engineering and Technology",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://kristujayanti.edu.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 24400,
+        "SC": 35380,
+        "ST": 32940,
+        "2A": 28059,
+        "3A": 26352
+      },
+      "ISE": {
+        "GM": 30400,
+        "SC": 44080,
+        "ST": 41040,
+        "2A": 34960,
+        "3A": 32832
+      },
+      "ECE": {
+        "GM": 38400,
+        "SC": 55680,
+        "ST": 51840,
+        "2A": 44160,
+        "3A": 41472
+      },
+      "AIML": {
+        "GM": 28400,
+        "SC": 41180,
+        "ST": 38340,
+        "2A": 32659,
+        "3A": 30672
+      },
+      "ME": {
+        "GM": 62200,
+        "SC": 90190,
+        "ST": 83970,
+        "2A": 71530,
+        "3A": 67176
+      }
+    }
+  },
+  {
+    "slug": "oxford-college-of-engineering",
+    "name": "Oxford College of Engineering",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://www.theoxford.edu/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 22000,
+        "SC": 31900,
+        "ST": 29700,
+        "2A": 25299,
+        "3A": 23760
+      },
+      "ISE": {
+        "GM": 28000,
+        "SC": 40600,
+        "ST": 37800,
+        "2A": 32199,
+        "3A": 30240
+      },
+      "ECE": {
+        "GM": 36000,
+        "SC": 52200,
+        "ST": 48600,
+        "2A": 41400,
+        "3A": 38880
+      },
+      "AIML": {
+        "GM": 26000,
+        "SC": 37700,
+        "ST": 35100,
+        "2A": 29899,
+        "3A": 28080
+      },
+      "ME": {
+        "GM": 55000,
+        "SC": 79750,
+        "ST": 74250,
+        "2A": 63249,
+        "3A": 59400
+      }
+    }
+  },
+  {
+    "slug": "g-madegowda-institute-of-technology",
+    "name": "G Madegowda Institute of Technology",
+    "location": "Mandya",
+    "fees": "₹1,40,000",
+    "website": "https://gmitmandya.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 22600,
+        "SC": 32770,
+        "ST": 30510,
+        "2A": 25989,
+        "3A": 24408
+      },
+      "ISE": {
+        "GM": 28600,
+        "SC": 41470,
+        "ST": 38610,
+        "2A": 32890,
+        "3A": 30888
+      },
+      "ECE": {
+        "GM": 36600,
+        "SC": 53070,
+        "ST": 49410,
+        "2A": 42090,
+        "3A": 39528
+      },
+      "AIML": {
+        "GM": 26600,
+        "SC": 38570,
+        "ST": 35910,
+        "2A": 30589,
+        "3A": 28728
+      },
+      "ME": {
+        "GM": 56800,
+        "SC": 82360,
+        "ST": 76680,
+        "2A": 65319,
+        "3A": 61344
+      }
+    }
+  },
+  {
+    "slug": "kalpataru-institute-of-technology",
+    "name": "Kalpataru Institute of Technology",
+    "location": "Tiptur",
+    "fees": "₹1,40,000",
+    "website": "https://kit.edu.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 23200,
+        "SC": 33640,
+        "ST": 31320,
+        "2A": 26679,
+        "3A": 25056
+      },
+      "ISE": {
+        "GM": 29200,
+        "SC": 42340,
+        "ST": 39420,
+        "2A": 33580,
+        "3A": 31536
+      },
+      "ECE": {
+        "GM": 37200,
+        "SC": 53940,
+        "ST": 50220,
+        "2A": 42780,
+        "3A": 40176
+      },
+      "AIML": {
+        "GM": 27200,
+        "SC": 39440,
+        "ST": 36720,
+        "2A": 31279,
+        "3A": 29376
+      },
+      "ME": {
+        "GM": 58600,
+        "SC": 84970,
+        "ST": 79110,
+        "2A": 67390,
+        "3A": 63288
+      }
+    }
+  },
+  {
+    "slug": "jss-academy-of-technical-education-bengaluru",
+    "name": "JSS Academy of Technical Education Bengaluru",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://jssateb.ac.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 23800,
+        "SC": 34510,
+        "ST": 32130,
+        "2A": 27369,
+        "3A": 25704
+      },
+      "ISE": {
+        "GM": 29800,
+        "SC": 43210,
+        "ST": 40230,
+        "2A": 34270,
+        "3A": 32184
+      },
+      "ECE": {
+        "GM": 37800,
+        "SC": 54810,
+        "ST": 51030,
+        "2A": 43470,
+        "3A": 40824
+      },
+      "AIML": {
+        "GM": 27800,
+        "SC": 40310,
+        "ST": 37530,
+        "2A": 31969,
+        "3A": 30024
+      },
+      "ME": {
+        "GM": 60400,
+        "SC": 87580,
+        "ST": 81540,
+        "2A": 69460,
+        "3A": 65232
+      }
+    }
+  },
+  {
+    "slug": "government-engineering-college-haveri",
+    "name": "Government Engineering College Haveri",
+    "location": "Haveri",
+    "fees": "₹1,40,000",
+    "website": "https://gechaveri.ac.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 24400,
+        "SC": 35380,
+        "ST": 32940,
+        "2A": 28059,
+        "3A": 26352
+      },
+      "ISE": {
+        "GM": 30400,
+        "SC": 44080,
+        "ST": 41040,
+        "2A": 34960,
+        "3A": 32832
+      },
+      "ECE": {
+        "GM": 38400,
+        "SC": 55680,
+        "ST": 51840,
+        "2A": 44160,
+        "3A": 41472
+      },
+      "AIML": {
+        "GM": 28400,
+        "SC": 41180,
+        "ST": 38340,
+        "2A": 32659,
+        "3A": 30672
+      },
+      "ME": {
+        "GM": 62200,
+        "SC": 90190,
+        "ST": 83970,
+        "2A": 71530,
+        "3A": 67176
+      }
+    }
+  },
+  {
+    "slug": "government-engineering-college-kushalnagar",
+    "name": "Government Engineering College Kushalnagar",
+    "location": "Kodagu",
+    "fees": "₹1,40,000",
+    "website": "https://geckodagu.ac.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 22000,
+        "SC": 31900,
+        "ST": 29700,
+        "2A": 25299,
+        "3A": 23760
+      },
+      "ISE": {
+        "GM": 28000,
+        "SC": 40600,
+        "ST": 37800,
+        "2A": 32199,
+        "3A": 30240
+      },
+      "ECE": {
+        "GM": 36000,
+        "SC": 52200,
+        "ST": 48600,
+        "2A": 41400,
+        "3A": 38880
+      },
+      "AIML": {
+        "GM": 26000,
+        "SC": 37700,
+        "ST": 35100,
+        "2A": 29899,
+        "3A": 28080
+      },
+      "ME": {
+        "GM": 55000,
+        "SC": 79750,
+        "ST": 74250,
+        "2A": 63249,
+        "3A": 59400
+      }
+    }
+  },
+  {
+    "slug": "sjm-institute-of-technology",
+    "name": "SJM Institute of Technology",
+    "location": "Chitradurga",
+    "fees": "₹1,40,000",
+    "website": "https://sjmit.ac.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 22600,
+        "SC": 32770,
+        "ST": 30510,
+        "2A": 25989,
+        "3A": 24408
+      },
+      "ISE": {
+        "GM": 28600,
+        "SC": 41470,
+        "ST": 38610,
+        "2A": 32890,
+        "3A": 30888
+      },
+      "ECE": {
+        "GM": 36600,
+        "SC": 53070,
+        "ST": 49410,
+        "2A": 42090,
+        "3A": 39528
+      },
+      "AIML": {
+        "GM": 26600,
+        "SC": 38570,
+        "ST": 35910,
+        "2A": 30589,
+        "3A": 28728
+      },
+      "ME": {
+        "GM": 56800,
+        "SC": 82360,
+        "ST": 76680,
+        "2A": 65319,
+        "3A": 61344
+      }
+    }
+  },
+  {
+    "slug": "bapuji-academy-of-management-and-research-engg",
+    "name": "Bapuji Academy of Management and Research (Engg)",
+    "location": "Davangere",
+    "fees": "₹1,40,000",
+    "website": "https://www.bapujiamr.org/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 23200,
+        "SC": 33640,
+        "ST": 31320,
+        "2A": 26679,
+        "3A": 25056
+      },
+      "ISE": {
+        "GM": 29200,
+        "SC": 42340,
+        "ST": 39420,
+        "2A": 33580,
+        "3A": 31536
+      },
+      "ECE": {
+        "GM": 37200,
+        "SC": 53940,
+        "ST": 50220,
+        "2A": 42780,
+        "3A": 40176
+      },
+      "AIML": {
+        "GM": 27200,
+        "SC": 39440,
+        "ST": 36720,
+        "2A": 31279,
+        "3A": 29376
+      },
+      "ME": {
+        "GM": 58600,
+        "SC": 84970,
+        "ST": 79110,
+        "2A": 67390,
+        "3A": 63288
+      }
+    }
+  },
+  {
+    "slug": "navkis-college-of-engineering-hassan",
+    "name": "Navkis College of Engineering Hassan",
+    "location": "Hassan",
+    "fees": "₹1,40,000",
+    "website": "https://www.navkisce.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 23800,
+        "SC": 34510,
+        "ST": 32130,
+        "2A": 27369,
+        "3A": 25704
+      },
+      "ISE": {
+        "GM": 29800,
+        "SC": 43210,
+        "ST": 40230,
+        "2A": 34270,
+        "3A": 32184
+      },
+      "ECE": {
+        "GM": 37800,
+        "SC": 54810,
+        "ST": 51030,
+        "2A": 43470,
+        "3A": 40824
+      },
+      "AIML": {
+        "GM": 27800,
+        "SC": 40310,
+        "ST": 37530,
+        "2A": 31969,
+        "3A": 30024
+      },
+      "ME": {
+        "GM": 60400,
+        "SC": 87580,
+        "ST": 81540,
+        "2A": 69460,
+        "3A": 65232
+      }
+    }
+  },
+  {
+    "slug": "rajarajeshwari-college-of-engineering",
+    "name": "Rajarajeshwari College of Engineering",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://www.rrce.org/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 24400,
+        "SC": 35380,
+        "ST": 32940,
+        "2A": 28059,
+        "3A": 26352
+      },
+      "ISE": {
+        "GM": 30400,
+        "SC": 44080,
+        "ST": 41040,
+        "2A": 34960,
+        "3A": 32832
+      },
+      "ECE": {
+        "GM": 38400,
+        "SC": 55680,
+        "ST": 51840,
+        "2A": 44160,
+        "3A": 41472
+      },
+      "AIML": {
+        "GM": 28400,
+        "SC": 41180,
+        "ST": 38340,
+        "2A": 32659,
+        "3A": 30672
+      },
+      "ME": {
+        "GM": 62200,
+        "SC": 90190,
+        "ST": 83970,
+        "2A": 71530,
+        "3A": 67176
+      }
+    }
+  },
+  {
+    "slug": "east-west-institute-of-technology",
+    "name": "East West Institute of Technology",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://www.ewit.edu.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 22000,
+        "SC": 31900,
+        "ST": 29700,
+        "2A": 25299,
+        "3A": 23760
+      },
+      "ISE": {
+        "GM": 28000,
+        "SC": 40600,
+        "ST": 37800,
+        "2A": 32199,
+        "3A": 30240
+      },
+      "ECE": {
+        "GM": 36000,
+        "SC": 52200,
+        "ST": 48600,
+        "2A": 41400,
+        "3A": 38880
+      },
+      "AIML": {
+        "GM": 26000,
+        "SC": 37700,
+        "ST": 35100,
+        "2A": 29899,
+        "3A": 28080
+      },
+      "ME": {
+        "GM": 55000,
+        "SC": 79750,
+        "ST": 74250,
+        "2A": 63249,
+        "3A": 59400
+      }
+    }
+  },
+  {
+    "slug": "bangalore-technological-institute",
+    "name": "Bangalore Technological Institute",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://btibangalore.org/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 22600,
+        "SC": 32770,
+        "ST": 30510,
+        "2A": 25989,
+        "3A": 24408
+      },
+      "ISE": {
+        "GM": 28600,
+        "SC": 41470,
+        "ST": 38610,
+        "2A": 32890,
+        "3A": 30888
+      },
+      "ECE": {
+        "GM": 36600,
+        "SC": 53070,
+        "ST": 49410,
+        "2A": 42090,
+        "3A": 39528
+      },
+      "AIML": {
+        "GM": 26600,
+        "SC": 38570,
+        "ST": 35910,
+        "2A": 30589,
+        "3A": 28728
+      },
+      "ME": {
+        "GM": 56800,
+        "SC": 82360,
+        "ST": 76680,
+        "2A": 65319,
+        "3A": 61344
+      }
+    }
+  },
+  {
+    "slug": "sri-krishna-institute-of-technology",
+    "name": "Sri Krishna Institute of Technology",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://www.skit.org.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 23200,
+        "SC": 33640,
+        "ST": 31320,
+        "2A": 26679,
+        "3A": 25056
+      },
+      "ISE": {
+        "GM": 29200,
+        "SC": 42340,
+        "ST": 39420,
+        "2A": 33580,
+        "3A": 31536
+      },
+      "ECE": {
+        "GM": 37200,
+        "SC": 53940,
+        "ST": 50220,
+        "2A": 42780,
+        "3A": 40176
+      },
+      "AIML": {
+        "GM": 27200,
+        "SC": 39440,
+        "ST": 36720,
+        "2A": 31279,
+        "3A": 29376
+      },
+      "ME": {
+        "GM": 58600,
+        "SC": 84970,
+        "ST": 79110,
+        "2A": 67390,
+        "3A": 63288
+      }
+    }
+  },
+  {
+    "slug": "acharaya-patashala-college-of-engineering",
+    "name": "Acharaya Patashala College of Engineering",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://apsce.ac.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 23800,
+        "SC": 34510,
+        "ST": 32130,
+        "2A": 27369,
+        "3A": 25704
+      },
+      "ISE": {
+        "GM": 29800,
+        "SC": 43210,
+        "ST": 40230,
+        "2A": 34270,
+        "3A": 32184
+      },
+      "ECE": {
+        "GM": 37800,
+        "SC": 54810,
+        "ST": 51030,
+        "2A": 43470,
+        "3A": 40824
+      },
+      "AIML": {
+        "GM": 27800,
+        "SC": 40310,
+        "ST": 37530,
+        "2A": 31969,
+        "3A": 30024
+      },
+      "ME": {
+        "GM": 60400,
+        "SC": 87580,
+        "ST": 81540,
+        "2A": 69460,
+        "3A": 65232
+      }
+    }
+  },
+  {
+    "slug": "government-engineering-college-gangavati",
+    "name": "Government Engineering College Gangavati",
+    "location": "Koppal",
+    "fees": "₹1,40,000",
+    "website": "https://gecgvt.ac.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 24400,
+        "SC": 35380,
+        "ST": 32940,
+        "2A": 28059,
+        "3A": 26352
+      },
+      "ISE": {
+        "GM": 30400,
+        "SC": 44080,
+        "ST": 41040,
+        "2A": 34960,
+        "3A": 32832
+      },
+      "ECE": {
+        "GM": 38400,
+        "SC": 55680,
+        "ST": 51840,
+        "2A": 44160,
+        "3A": 41472
+      },
+      "AIML": {
+        "GM": 28400,
+        "SC": 41180,
+        "ST": 38340,
+        "2A": 32659,
+        "3A": 30672
+      },
+      "ME": {
+        "GM": 62200,
+        "SC": 90190,
+        "ST": 83970,
+        "2A": 71530,
+        "3A": 67176
+      }
+    }
+  },
+  {
+    "slug": "government-engineering-college-karwar",
+    "name": "Government Engineering College Karwar",
+    "location": "Uttara Kannada",
+    "fees": "₹1,40,000",
+    "website": "https://geckarwar.karnataka.gov.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 22000,
+        "SC": 31900,
+        "ST": 29700,
+        "2A": 25299,
+        "3A": 23760
+      },
+      "ISE": {
+        "GM": 28000,
+        "SC": 40600,
+        "ST": 37800,
+        "2A": 32199,
+        "3A": 30240
+      },
+      "ECE": {
+        "GM": 36000,
+        "SC": 52200,
+        "ST": 48600,
+        "2A": 41400,
+        "3A": 38880
+      },
+      "AIML": {
+        "GM": 26000,
+        "SC": 37700,
+        "ST": 35100,
+        "2A": 29899,
+        "3A": 28080
+      },
+      "ME": {
+        "GM": 55000,
+        "SC": 79750,
+        "ST": 74250,
+        "2A": 63249,
+        "3A": 59400
+      }
+    }
+  },
+  {
+    "slug": "government-engineering-college-bharamasagara",
+    "name": "Government Engineering College Bharamasagara",
+    "location": "Chitradurga",
+    "fees": "₹1,40,000",
+    "website": "https://gecb.ac.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 22600,
+        "SC": 32770,
+        "ST": 30510,
+        "2A": 25989,
+        "3A": 24408
+      },
+      "ISE": {
+        "GM": 28600,
+        "SC": 41470,
+        "ST": 38610,
+        "2A": 32890,
+        "3A": 30888
+      },
+      "ECE": {
+        "GM": 36600,
+        "SC": 53070,
+        "ST": 49410,
+        "2A": 42090,
+        "3A": 39528
+      },
+      "AIML": {
+        "GM": 26600,
+        "SC": 38570,
+        "ST": 35910,
+        "2A": 30589,
+        "3A": 28728
+      },
+      "ME": {
+        "GM": 56800,
+        "SC": 82360,
+        "ST": 76680,
+        "2A": 65319,
+        "3A": 61344
+      }
+    }
+  },
+  {
+    "slug": "sri-taralabalu-jagadguru-institute-of-technology",
+    "name": "Sri Taralabalu Jagadguru Institute of Technology",
+    "location": "Ranebennuru",
+    "fees": "₹1,40,000",
+    "website": "https://stjit.ac.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 23200,
+        "SC": 33640,
+        "ST": 31320,
+        "2A": 26679,
+        "3A": 25056
+      },
+      "ISE": {
+        "GM": 29200,
+        "SC": 42340,
+        "ST": 39420,
+        "2A": 33580,
+        "3A": 31536
+      },
+      "ECE": {
+        "GM": 37200,
+        "SC": 53940,
+        "ST": 50220,
+        "2A": 42780,
+        "3A": 40176
+      },
+      "AIML": {
+        "GM": 27200,
+        "SC": 39440,
+        "ST": 36720,
+        "2A": 31279,
+        "3A": 29376
+      },
+      "ME": {
+        "GM": 58600,
+        "SC": 84970,
+        "ST": 79110,
+        "2A": 67390,
+        "3A": 63288
+      }
+    }
+  },
+  {
+    "slug": "anjuman-institute-of-technology-and-management",
+    "name": "Anjuman Institute of Technology and Management",
+    "location": "Bhatkal",
+    "fees": "₹1,40,000",
+    "website": "https://www.aitmbhatkal.edu.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 23800,
+        "SC": 34510,
+        "ST": 32130,
+        "2A": 27369,
+        "3A": 25704
+      },
+      "ISE": {
+        "GM": 29800,
+        "SC": 43210,
+        "ST": 40230,
+        "2A": 34270,
+        "3A": 32184
+      },
+      "ECE": {
+        "GM": 37800,
+        "SC": 54810,
+        "ST": 51030,
+        "2A": 43470,
+        "3A": 40824
+      },
+      "AIML": {
+        "GM": 27800,
+        "SC": 40310,
+        "ST": 37530,
+        "2A": 31969,
+        "3A": 30024
+      },
+      "ME": {
+        "GM": 60400,
+        "SC": 87580,
+        "ST": 81540,
+        "2A": 69460,
+        "3A": 65232
+      }
+    }
+  },
+  {
+    "slug": "govt-engineering-college-krishnagiri-ksitm",
+    "name": "Govt Engineering College Krishnagiri (KSITM)",
+    "location": "Yadgir",
+    "fees": "₹1,40,000",
+    "website": "https://gecyadgir.ac.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 24400,
+        "SC": 35380,
+        "ST": 32940,
+        "2A": 28059,
+        "3A": 26352
+      },
+      "ISE": {
+        "GM": 30400,
+        "SC": 44080,
+        "ST": 41040,
+        "2A": 34960,
+        "3A": 32832
+      },
+      "ECE": {
+        "GM": 38400,
+        "SC": 55680,
+        "ST": 51840,
+        "2A": 44160,
+        "3A": 41472
+      },
+      "AIML": {
+        "GM": 28400,
+        "SC": 41180,
+        "ST": 38340,
+        "2A": 32659,
+        "3A": 30672
+      },
+      "ME": {
+        "GM": 62200,
+        "SC": 90190,
+        "ST": 83970,
+        "2A": 71530,
+        "3A": 67176
+      }
+    }
+  },
+  {
+    "slug": "jain-institute-of-technology-davangere",
+    "name": "Jain Institute of Technology Davangere",
+    "location": "Davangere",
+    "fees": "₹1,40,000",
+    "website": "https://jitd.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 22000,
+        "SC": 31900,
+        "ST": 29700,
+        "2A": 25299,
+        "3A": 23760
+      },
+      "ISE": {
+        "GM": 28000,
+        "SC": 40600,
+        "ST": 37800,
+        "2A": 32199,
+        "3A": 30240
+      },
+      "ECE": {
+        "GM": 36000,
+        "SC": 52200,
+        "ST": 48600,
+        "2A": 41400,
+        "3A": 38880
+      },
+      "AIML": {
+        "GM": 26000,
+        "SC": 37700,
+        "ST": 35100,
+        "2A": 29899,
+        "3A": 28080
+      },
+      "ME": {
+        "GM": 55000,
+        "SC": 79750,
+        "ST": 74250,
+        "2A": 63249,
+        "3A": 59400
+      }
+    }
+  },
+  {
+    "slug": "channabasaveshwara-institute-of-technology",
+    "name": "Channabasaveshwara Institute of Technology",
+    "location": "Gubbi",
+    "fees": "₹1,40,000",
+    "website": "https://www.cittumkur.org/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 22600,
+        "SC": 32770,
+        "ST": 30510,
+        "2A": 25989,
+        "3A": 24408
+      },
+      "ISE": {
+        "GM": 28600,
+        "SC": 41470,
+        "ST": 38610,
+        "2A": 32890,
+        "3A": 30888
+      },
+      "ECE": {
+        "GM": 36600,
+        "SC": 53070,
+        "ST": 49410,
+        "2A": 42090,
+        "3A": 39528
+      },
+      "AIML": {
+        "GM": 26600,
+        "SC": 38570,
+        "ST": 35910,
+        "2A": 30589,
+        "3A": 28728
+      },
+      "ME": {
+        "GM": 56800,
+        "SC": 82360,
+        "ST": 76680,
+        "2A": 65319,
+        "3A": 61344
+      }
+    }
+  },
+  {
+    "slug": "pavana-college-of-engineering",
+    "name": "Pavana College of Engineering",
+    "location": "Kolar",
+    "fees": "₹1,40,000",
+    "website": "https://pavana.org/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 23200,
+        "SC": 33640,
+        "ST": 31320,
+        "2A": 26679,
+        "3A": 25056
+      },
+      "ISE": {
+        "GM": 29200,
+        "SC": 42340,
+        "ST": 39420,
+        "2A": 33580,
+        "3A": 31536
+      },
+      "ECE": {
+        "GM": 37200,
+        "SC": 53940,
+        "ST": 50220,
+        "2A": 42780,
+        "3A": 40176
+      },
+      "AIML": {
+        "GM": 27200,
+        "SC": 39440,
+        "ST": 36720,
+        "2A": 31279,
+        "3A": 29376
+      },
+      "ME": {
+        "GM": 58600,
+        "SC": 84970,
+        "ST": 79110,
+        "2A": 67390,
+        "3A": 63288
+      }
+    }
+  },
+  {
+    "slug": "sri-krishna-school-of-engineering-and-management",
+    "name": "Sri Krishna School of Engineering and Management",
+    "location": "Bengaluru",
+    "fees": "₹1,40,000",
+    "website": "https://srikrisna.org/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 23800,
+        "SC": 34510,
+        "ST": 32130,
+        "2A": 27369,
+        "3A": 25704
+      },
+      "ISE": {
+        "GM": 29800,
+        "SC": 43210,
+        "ST": 40230,
+        "2A": 34270,
+        "3A": 32184
+      },
+      "ECE": {
+        "GM": 37800,
+        "SC": 54810,
+        "ST": 51030,
+        "2A": 43470,
+        "3A": 40824
+      },
+      "AIML": {
+        "GM": 27800,
+        "SC": 40310,
+        "ST": 37530,
+        "2A": 31969,
+        "3A": 30024
+      },
+      "ME": {
+        "GM": 60400,
+        "SC": 87580,
+        "ST": 81540,
+        "2A": 69460,
+        "3A": 65232
+      }
+    }
+  },
+  {
+    "slug": "visvesvaraya-technological-university-regional-centre-kalaburagi",
+    "name": "Visvesvaraya Technological University Regional Centre Kalaburagi",
+    "location": "Kalaburagi",
+    "fees": "₹1,40,000",
+    "website": "https://vtu.ac.in/",
+    "packages": {
+      "high": "18 LPA",
+      "avg": "5 LPA"
+    },
+    "cutoffs": {
+      "CSE": {
+        "GM": 24400,
+        "SC": 35380,
+        "ST": 32940,
+        "2A": 28059,
+        "3A": 26352
+      },
+      "ISE": {
+        "GM": 30400,
+        "SC": 44080,
+        "ST": 41040,
+        "2A": 34960,
+        "3A": 32832
+      },
+      "ECE": {
+        "GM": 38400,
+        "SC": 55680,
+        "ST": 51840,
+        "2A": 44160,
+        "3A": 41472
+      },
+      "AIML": {
+        "GM": 28400,
+        "SC": 41180,
+        "ST": 38340,
+        "2A": 32659,
+        "3A": 30672
+      },
+      "ME": {
+        "GM": 62200,
+        "SC": 90190,
+        "ST": 83970,
+        "2A": 71530,
+        "3A": 67176
+      }
+    }
+  }
+]

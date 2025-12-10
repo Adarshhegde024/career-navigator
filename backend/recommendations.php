@@ -1,3 +1,9 @@
+<?php
+require_once __DIR__ . '/db.php';
+require_once __DIR__ . '/includes/college_repository.php';
+
+$collegeData = getCollegesWithCutoffs($conn);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -127,6 +133,16 @@
                         <option value="ME">Mechanical Engineering</option>
                     </select>
                 </div>
+                <div class="input-group">
+                    <label for="category-select">Reservation Category</label>
+                    <select id="category-select">
+                        <option value="GM">GM (General Merit)</option>
+                        <option value="SC">SC</option>
+                        <option value="ST">ST</option>
+                        <option value="2A">2A</option>
+                        <option value="3A">3A</option>
+                    </select>
+                </div>
                 <button type="submit">Get Recommendations</button>
             </form>
 
@@ -168,37 +184,13 @@
     <!-- START: JAVASCRIPT LOGIC -->
     <!-- =================================================================== -->
     <script>
+        const collegeData = <?php echo json_encode($collegeData, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>;
+
         // =======================================================================
         // 1. API KEY (Add your key from AiCounselor.php)
         // =======================================================================
         const API_KEY = "AIzaSyBZjWXQjohyjOWuRzv1GKGyAa1I1tel_MA"; // <-- PASTE YOUR GOOGLE AI API KEY HERE
         const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
-        
-        // =======================================================================
-        // 2. COLLEGE DATABASE (Copied from colleges.php)
-        // =======================================================================
-        const collegeData = [
-            { id: 'bnmit', name: 'B.N.M Institute of Technology', location: 'Bengaluru', fees: '₹1,10,000', website: 'https.bnmit.org/', packages: { high: '18 LPA', avg: '6 LPA' }, cutoffs: { CSE: 22000, ISE: 28000, ECE: 35000, AIML: 25000 } },
-            { id: 'bmsce', name: 'BMS College of Engineering', location: 'Bengaluru', fees: '₹2,10,000', website: 'https://www.bmsce.ac.in/', packages: { high: '50 LPA', avg: '9 LPA' }, cutoffs: { CSE: 3000, ISE: 4500, ECE: 7000, ME: 25000, AIML: 4000 } },
-            { id: 'jssstu', name: 'JSS Science and Technology University', location: 'Mysuru', fees: '₹1,00,000', website: 'https://jssst.in/', packages: { high: '40 LPA', avg: '7 LPA' }, cutoffs: { CSE: 12000, ISE: 16000, ECE: 20000, ME: 45000 } },
-            { id: 'pesitm', name: 'PES Institute of Technology and Management', location: 'Shivamogga', fees: '₹90,000', website: 'https://pesitm.ac.in/', packages: { high: '12 LPA', avg: '5 LPA' }, cutoffs: { CSE: 15000, ISE: 21000, ECE: 28000, ME: 60000 } },
-            { id: 'msrit', name: 'M.S. Ramaiah Institute of Technology', location: 'Bengaluru', fees: '₹2,50,000', website: 'https://www.msrit.edu/', packages: { high: '50 LPA', avg: '8.5 LPA' }, cutoffs: { CSE: 5000, ISE: 7000, ECE: 10000, ME: 30000, AIML: 6000 } },
-            { id: 'rvce', name: 'RV College of Engineering', location: 'Bengaluru', fees: '₹2,00,000', website: 'https.rvce.edu.in/', packages: { high: '62 LPA', avg: '10 LPA' }, cutoffs: { CSE: 800, ISE: 1200, ECE: 2500, ME: 15000 } },
-            { id: 'dsce', name: 'Dayananda Sagar College of Engineering', location: 'Bengaluru', fees: '₹1,80,000', website: 'https://dsce.edu.in/', packages: { high: '45 LPA', avg: '7 LPA' }, cutoffs: { CSE: 12000, ISE: 15000, ECE: 18000, AIML: 14000 } },
-            { id: 'bmsit', name: 'BMS Institute of Technology and Management', location: 'Bengaluru', fees: '₹1,20,000', website: 'https://bmsit.ac.in/', packages: { high: '28 LPA', avg: '6.5 LPA' }, cutoffs: { CSE: 18000, ISE: 23000, ECE: 29000, AIML: 20000 } },
-            { id: 'sit', name: 'Siddaganga Institute of Technology', location: 'Tumakuru', fees: '₹80,000', website: 'https://www.sit.ac.in/', packages: { high: '30 LPA', avg: '5.5 LPA' }, cutoffs: { CSE: 25000, ISE: 30000, ECE: 38000, ME: 70000 } },
-            { id: 'nie', name: 'National Institute of Engineering', location: 'Mysuru', fees: '₹95,000', website: 'https://nie.ac.in/', packages: { high: '43 LPA', avg: '7 LPA' }, cutoffs: { CSE: 14000, ISE: 17000, ECE: 22000, ME: 50000 } },
-            { id: 'iiitb', name: 'IIIT Bangalore', location: 'Bengaluru', fees: '₹4,00,000', website: 'https://www.iiitb.ac.in/', packages: { high: '2 Cr', avg: '35 LPA' }, cutoffs: { CSE: 8000, ECE: 12000 } },
-            { id: 'pesu', name: 'PES University', location: 'Bengaluru', fees: '₹4,50,000', website: 'https://www.pes.edu/', packages: { high: '1.5 Cr', avg: '12 LPA' }, cutoffs: { CSE: 2000, ECE: 4000, ME: 20000, AIML: 2500 } },
-            { id: 'nmamit', name: 'NMAM Institute of Technology', location: 'Mangaluru', fees: '₹1,30,000', website: 'https://nmamit.nitte.edu.in/', packages: { high: '45 LPA', avg: '5 LPA' }, cutoffs: { CSE: 28000, ISE: 34000, ECE: 40000, AIML: 30000 } },
-            { id: 'sjec', name: 'St. Joseph Engineering College', location: 'Mangaluru', fees: '₹1,00,000', website: 'https://www.sjec.ac.in/', packages: { high: '20 LPA', avg: '4.5 LPA' }, cutoffs: { CSE: 35000, ECE: 50000, ME: 90000, AIML: 40000 } },
-            { id: 'kle', name: 'KLE Technological University', location: 'Belagavi', fees: '₹1,50,000', website: 'https://www.kletech.ac.in/', packages: { high: '33 LPA', avg: '6 LPA' }, cutoffs: { CSE: 20000, ECE: 30000, ME: 65000 } },
-            { id: 'reva', name: 'REVA University', location: 'Bengaluru', fees: '₹2,80,000', website: 'https://www.reva.edu.in/', packages: { high: '50 LPA', avg: '5.5 LPA' }, cutoffs: { CSE: 40000, ISE: 50000, ECE: 60000, AIML: 45000 } },
-            { id: 'cmrit', name: 'CMR Institute of Technology', location: 'Bengaluru', fees: '₹2,00,000', website: 'https://www.cmrit.ac.in/', packages: { high: '25 LPA', avg: '6 LPA' }, cutoffs: { CSE: 26000, ISE: 32000, ECE: 39000, AIML: 29000 } },
-            { id: 'acharya', name: 'Acharya Institute of Technology', location: 'Bengaluru', fees: '₹2,20,000', website: 'https://acharya.ac.in/', packages: { high: '20 LPA', avg: '4.5 LPA' }, cutoffs: { CSE: 50000, ISE: 60000, ECE: 75000, AIML: 55000 } },
-            { id: 'jain', name: 'Jain University', location: 'Bengaluru', fees: '₹3,50,000', website: 'https://www.jainuniversity.ac.in/', packages: { high: '42 LPA', avg: '6.5 LPA' }, cutoffs: { CSE: 45000, ECE: 70000, AIML: 50000 } },
-            { id: 'oxford', name: 'The Oxford College of Engineering', location: 'Bengaluru', fees: '₹1,70,000', website: 'https://www.theoxford.edu/', packages: { high: '18 LPA', avg: '5 LPA' }, cutoffs: { CSE: 48000, ISE: 58000, ECE: 72000, AIML: 52000 } }
-        ];
 
         // =======================================================================
         // 3. RECOMMENDATION LOGIC
@@ -207,6 +199,7 @@
             const form = document.getElementById('recommendation-form');
             const resultsDiv = document.getElementById('recommendation-results');
             const subtitle = document.querySelector('.section-subtitle');
+            const categorySelect = document.getElementById('category-select');
 
             form.addEventListener('submit', (event) => {
                 event.preventDefault(); // Stop the form from reloading the page
@@ -214,6 +207,7 @@
                 const rankInput = document.getElementById('cet-rank');
                 const rank = parseInt(rankInput.value);
                 const course = document.getElementById('course-pref').value; // Already uppercase
+                const category = categorySelect.value;
 
                 // --- Validation ---
                 if (!rank || rank <= 0) {
@@ -250,9 +244,8 @@
                 // --- 3. LOOP THROUGH ALL COLLEGES ---
                 for (const college of collegeData) {
                     // Get the cutoff for the *specific course* the user selected (e.g., CSE)
-                    const cutoff = college.cutoffs[course];
+                    const cutoff = getCategoryCutoff(college, course, category);
                     
-                    // If the college doesn't offer this course (no cutoff data), skip it and move to the next college.
                     if (!cutoff) continue; 
 
                     // --- 4. CATEGORIZE THE COLLEGE ---
@@ -262,21 +255,21 @@
                     // Ex: Your Rank = 15000. Dream Zone = 11250 to 14999.
                     // A college with cutoff 12000 fits this rule.
                     if (cutoff < rank && cutoff >= rank * dreamMargin) {
-                        dream.push(college);
+                        dream.push({ college, cutoff });
                     
                     // RULE 2: TARGET COLLEGE
                     // The cutoff must be WORSE (greater than or equal to) your rank, BUT not *too* much worse (must be < 150% of your rank).
                     // Ex: Your Rank = 15000. Target Zone = 15000 to 22500.
                     // A college with cutoff 18000 fits this rule.
                     } else if (cutoff >= rank && cutoff < rank * targetMargin) {
-                        target.push(college);
+                        target.push({ college, cutoff });
 
                     // RULE 3: SAFE COLLEGE
                     // The cutoff is WORSE (greater than or equal to) the target margin.
                     // Ex: Your Rank = 15000. Safe Zone = 22501 and higher.
                     // A college with cutoff 25000 fits this rule.
                     } else if (cutoff >= rank * targetMargin) {
-                        safe.push(college);
+                        safe.push({ college, cutoff });
                     }
                     // Note: Colleges with cutoffs *way* better than your rank (e.g., < 75% of your rank) are ignored,
                     // as they are too unrealistic to be a "dream" choice.
@@ -284,32 +277,35 @@
                 
                 // --- 5. SORT THE RESULTS ---
                 // Sort each list internally by cutoff, from best (lowest rank) to worst (highest rank).
-                dream.sort((a,b) => a.cutoffs[course] - b.cutoffs[course]);
-                target.sort((a,b) => a.cutoffs[course] - b.cutoffs[course]);
-                safe.sort((a,b) => a.cutoffs[course] - b.cutoffs[course]);
+                const sorter = (a, b) => a.cutoff - b.cutoff;
+                dream.sort(sorter);
+                target.sort(sorter);
+                safe.sort(sorter);
 
                 // --- Render Results ---
                 resultsDiv.innerHTML = ''; // Clear previous results
-                renderCategory(resultsDiv, 'Dream Choices', 'Colleges where admission is challenging but possible.', dream, 'danger');
-                renderCategory(resultsDiv, 'Target Choices', 'Colleges that are a good match for your rank.', target, 'warning');
-                renderCategory(resultsDiv, 'Safe Choices', 'Colleges where you have a very high chance of admission.', safe, 'success');
+                renderCategory(resultsDiv, 'Dream Choices', 'Colleges where admission is challenging but possible.', dream, 'danger', category);
+                renderCategory(resultsDiv, 'Target Choices', 'Colleges that are a good match for your rank.', target, 'warning', category);
+                renderCategory(resultsDiv, 'Safe Choices', 'Colleges where you have a very high chance of admission.', safe, 'success', category);
                 
                 resultsDiv.style.display = 'grid'; // Show the results
             });
         });
 
-        function renderCategory(container, title, description, colleges, type) {
+        function renderCategory(container, title, description, collegeItems, type, categoryLabel) {
             const categoryDiv = document.createElement('div');
             categoryDiv.className = 'recommendation-category';
             categoryDiv.style.borderLeftColor = `var(--${type}-color)`;
 
             let collegeList = '';
-            if (colleges.length === 0) {
+            if (collegeItems.length === 0) {
                 collegeList = '<li>No colleges found in this category.</li>';
             } else {
-                collegeList = colleges.map(college => 
-                    // This is the key: we add onclick to open the modal
-                    `<li onclick="openModal('${college.id}')">${college.name}</li>`
+                collegeList = collegeItems.map(item => 
+                    `<li onclick="openModal('${item.college.id}')">
+                        <div class="college-name">${item.college.name}</div>
+                        <div class="college-cutoff">Cutoff (${categoryLabel}): ~${item.cutoff}</div>
+                    </li>`
                 ).join('');
             }
 
@@ -341,10 +337,23 @@
 
             const branchList = document.getElementById('modalBranchList');
             branchList.innerHTML = '';
-            for (const [branch, cutoff] of Object.entries(college.cutoffs)) {
-                const li = document.createElement('li');
-                li.innerHTML = `${branch}: <span>~${cutoff}</span>`;
-                branchList.appendChild(li);
+            if (college.cutoffs) {
+                for (const [branch, categories] of Object.entries(college.cutoffs)) {
+                    const li = document.createElement('li');
+                    const entries = Object.entries(categories || {});
+                    if (entries.length === 0) {
+                        li.textContent = `${branch}: data unavailable`;
+                    } else {
+                        const gm = categories?.GM ?? entries[0][1];
+                        const categoryDetails = entries
+                            .map(([cat, value]) => `${cat}: ~${value}`)
+                            .join(', ');
+                        li.innerHTML = `<strong>${branch}</strong>: GM ~${gm}${entries.length > 1 ? `<br/><small>${categoryDetails}</small>` : ''}`;
+                    }
+                    branchList.appendChild(li);
+                }
+            } else {
+                branchList.innerHTML = '<li>Cutoff data not available.</li>';
             }
 
             document.getElementById('aiSummarySection').style.display = 'none';
@@ -369,6 +378,13 @@
         }
 
         document.getElementById('getAiSummaryBtn').onclick = fetchAiSummary;
+        
+        function getCategoryCutoff(college, course, category) {
+            if (!college.cutoffs) return null;
+            const branchData = college.cutoffs[course];
+            if (!branchData) return null;
+            return branchData[category] ?? branchData.GM ?? null;
+        }
 
         async function fetchAiSummary() {
             const collegeName = document.getElementById('getAiSummaryBtn').dataset.collegeName;

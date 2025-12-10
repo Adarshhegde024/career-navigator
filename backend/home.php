@@ -82,7 +82,9 @@
             
             <!-- Logout Button -->
             <div class="nav-right-items">
-                
+                <a href="admin/login.php" class="nav-link" style="padding: 0.6rem 1rem; border: 1px solid rgba(255,255,255,0.2); border-radius: 999px;">
+                    Admin Login
+                </a>
             </div>
         </nav>
     </header>

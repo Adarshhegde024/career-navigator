@@ -1,3 +1,19 @@
+<?php
+require_once __DIR__ . '/db.php';
+require_once __DIR__ . '/includes/college_repository.php';
+
+$collegeData = getCollegesWithCutoffs($conn);
+
+// Debug: Check if data is loaded and has cutoffs
+$collegesWithCutoffs = 0;
+foreach ($collegeData as $college) {
+    if (!empty($college['cutoffs'])) {
+        $collegesWithCutoffs++;
+    }
+}
+// Uncomment the line below to see debug info in browser console
+// error_log("Loaded " . count($collegeData) . " colleges, " . $collegesWithCutoffs . " with cutoffs");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -154,198 +170,13 @@
     <!-- START: JAVASCRIPT LOGIC -->
     <!-- =================================================================== -->
     <script>
+        const collegeData = <?php echo json_encode($collegeData, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>;
+
         // =======================================================================
         // 1. API KEY (Add your key from AiCounselor.php)
         // =======================================================================
         const API_KEY = "AIzaSyBZjWXQjohyjOWuRzv1GKGyAa1I1tel_MA"; // <-- PASTE YOUR GOOGLE AI API KEY HERE
         const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
-
-        // =======================================================================
-        // 2. COLLEGE DATABASE
-        // =======================================================================
-        // All college data is now in one place. Easily add or edit colleges here.
-        const collegeData = [
-            {
-                id: 'bnmit',
-                name: 'B.N.M Institute of Technology',
-                location: 'Bengaluru',
-                fees: '₹1,10,000',
-                website: 'https://bnmit.org/',
-                packages: { high: '18 LPA', avg: '6 LPA' },
-                cutoffs: { CSE: 22000, ISE: 28000, ECE: 35000, AIML: 25000 }
-            },
-            {
-                id: 'bmsce',
-                name: 'BMS College of Engineering',
-                location: 'Bengaluru',
-                fees: '₹2,10,000',
-                website: 'https://www.bmsce.ac.in/',
-                packages: { high: '50 LPA', avg: '9 LPA' },
-                cutoffs: { CSE: 3000, ISE: 4500, ECE: 7000, ME: 25000, AIML: 4000 }
-            },
-            {
-                id: 'jssstu',
-                name: 'JSS Science and Technology University',
-                location: 'Mysuru',
-                fees: '₹1,00,000',
-                website: 'https://jssst.in/',
-                packages: { high: '40 LPA', avg: '7 LPA' },
-                cutoffs: { CSE: 12000, ISE: 16000, ECE: 20000, ME: 45000 }
-            },
-            {
-                id: 'pesitm',
-                name: 'PES Institute of Technology and Management',
-                location: 'Shivamogga',
-                fees: '₹90,000',
-                website: 'https://pesitm.ac.in/',
-                packages: { high: '12 LPA', avg: '5 LPA' },
-                cutoffs: { CSE: 15000, ISE: 21000, ECE: 28000, ME: 60000 }
-            },
-            {
-                id: 'msrit',
-                name: 'M.S. Ramaiah Institute of Technology',
-                location: 'Bengaluru',
-                fees: '₹2,50,000',
-                website: 'https://www.msrit.edu/',
-                packages: { high: '50 LPA', avg: '8.5 LPA' },
-                cutoffs: { CSE: 5000, ISE: 7000, ECE: 10000, ME: 30000, AIML: 6000 }
-            },
-            {
-                id: 'rvce',
-                name: 'RV College of Engineering',
-                location: 'Bengaluru',
-                fees: '₹2,00,000',
-                website: 'https://rvce.edu.in/',
-                packages: { high: '62 LPA', avg: '10 LPA' },
-                cutoffs: { CSE: 800, ISE: 1200, ECE: 2500, ME: 15000 }
-            },
-            {
-                id: 'dsce',
-                name: 'Dayananda Sagar College of Engineering',
-                location: 'Bengaluru',
-                fees: '₹1,80,000',
-                website: 'https://dsce.edu.in/',
-                packages: { high: '45 LPA', avg: '7 LPA' },
-                cutoffs: { CSE: 12000, ISE: 15000, ECE: 18000, AIML: 14000 }
-            },
-            {
-                id: 'bmsit',
-                name: 'BMS Institute of Technology and Management',
-                location: 'Bengaluru',
-                fees: '₹1,20,000',
-                website: 'https://bmsit.ac.in/',
-                packages: { high: '28 LPA', avg: '6.5 LPA' },
-                cutoffs: { CSE: 18000, ISE: 23000, ECE: 29000, AIML: 20000 }
-            },
-            {
-                id: 'sit',
-                name: 'Siddaganga Institute of Technology',
-                location: 'Tumakuru',
-                fees: '₹80,000',
-                website: 'https://www.sit.ac.in/',
-                packages: { high: '30 LPA', avg: '5.5 LPA' },
-                cutoffs: { CSE: 25000, ISE: 30000, ECE: 38000, ME: 70000 }
-            },
-            {
-                id: 'nie',
-                name: 'National Institute of Engineering',
-                location: 'Mysuru',
-                fees: '₹95,000',
-                website: 'https://nie.ac.in/',
-                packages: { high: '43 LPA', avg: '7 LPA' },
-                cutoffs: { CSE: 14000, ISE: 17000, ECE: 22000, ME: 50000 }
-            },
-            {
-                id: 'iiitb',
-                name: 'IIIT Bangalore',
-                location: 'Bengaluru',
-                fees: '₹4,00,000',
-                website: 'https://www.iiitb.ac.in/',
-                packages: { high: '2 Cr', avg: '35 LPA' },
-                cutoffs: { CSE: 8000, ECE: 12000 } // Note: IIITB has different admission
-            },
-            {
-                id: 'pesu',
-                name: 'PES University',
-                location: 'Bengaluru',
-                fees: '₹4,50,000',
-                website: 'https://www.pes.edu/',
-                packages: { high: '1.5 Cr', avg: '12 LPA' },
-                cutoffs: { CSE: 2000, ECE: 4000, ME: 20000, AIML: 2500 } // Via PESSAT & KCET
-            },
-            {
-                id: 'nmamit',
-                name: 'NMAM Institute of Technology',
-                location: 'Mangaluru',
-                fees: '₹1,30,000',
-                website: 'https://nmamit.nitte.edu.in/',
-                packages: { high: '45 LPA', avg: '5 LPA' },
-                cutoffs: { CSE: 28000, ISE: 34000, ECE: 40000, AIML: 30000 }
-            },
-            {
-                id: 'sjec',
-                name: 'St. Joseph Engineering College',
-                location: 'Mangaluru',
-                fees: '₹1,00,000',
-                website: 'https://www.sjec.ac.in/',
-                packages: { high: '20 LPA', avg: '4.5 LPA' },
-                cutoffs: { CSE: 35000, ECE: 50000, ME: 90000, AIML: 40000 }
-            },
-            {
-                id: 'kle',
-                name: 'KLE Technological University',
-                location: 'Belagavi',
-                fees: '₹1,50,000',
-                website: 'https://www.kletech.ac.in/',
-                packages: { high: '33 LPA', avg: '6 LPA' },
-                cutoffs: { CSE: 20000, ECE: 30000, ME: 65000 }
-            },
-            {
-                id: 'reva',
-                name: 'REVA University',
-                location: 'Bengaluru',
-                fees: '₹2,80,000',
-                website: 'https://www.reva.edu.in/',
-                packages: { high: '50 LPA', avg: '5.5 LPA' },
-                cutoffs: { CSE: 40000, ISE: 50000, ECE: 60000, AIML: 45000 }
-            },
-            {
-                id: 'cmrit',
-                name: 'CMR Institute of Technology',
-                location: 'Bengaluru',
-                fees: '₹2,00,000',
-                website: 'https://www.cmrit.ac.in/',
-                packages: { high: '25 LPA', avg: '6 LPA' },
-                cutoffs: { CSE: 26000, ISE: 32000, ECE: 39000, AIML: 29000 }
-            },
-            {
-                id: 'acharya',
-                name: 'Acharya Institute of Technology',
-                location: 'Bengaluru',
-                fees: '₹2,20,000',
-                website: 'https://acharya.ac.in/',
-                packages: { high: '20 LPA', avg: '4.5 LPA' },
-                cutoffs: { CSE: 50000, ISE: 60000, ECE: 75000, AIML: 55000 }
-            },
-            {
-                id: 'jain',
-                name: 'Jain University',
-                location: 'Bengaluru',
-                fees: '₹3,50,000',
-                website: 'https://www.jainuniversity.ac.in/',
-                packages: { high: '42 LPA', avg: '6.5 LPA' },
-                cutoffs: { CSE: 45000, ECE: 70000, AIML: 50000 }
-            },
-            {
-                id: 'oxford',
-                name: 'The Oxford College of Engineering',
-                location: 'Bengaluru',
-                fees: '₹1,70,000',
-                website: 'https://www.theoxford.edu/',
-                packages: { high: '18 LPA', avg: '5 LPA' },
-                cutoffs: { CSE: 48000, ISE: 58000, ECE: 72000, AIML: 52000 }
-            }
-        ];
 
         // =======================================================================
         // 3. DOM ELEMENT REFERENCES
@@ -372,11 +203,36 @@
         const aiSummarySection = document.getElementById('aiSummarySection');
         const aiSummaryContent = document.getElementById('aiSummaryContent');
         
+        // Helper: derive GM/default cutoff for a branch
+        function getDefaultCutoff(college, branch) {
+            const branchData = college.cutoffs && college.cutoffs[branch];
+            if (!branchData) return null;
+            if (branchData.GM) return branchData.GM;
+            const values = Object.values(branchData);
+            return values.length ? values[0] : null;
+        }
+
+        function hasCourseData(college, course) {
+            if (course === 'All') return true;
+            const branchData = college.cutoffs && college.cutoffs[course];
+            return branchData && Object.keys(branchData).length > 0;
+        }
+
         // =======================================================================
         // 4. RENDER COLLEGES FUNCTION (The Core)
         // =======================================================================
         function renderColleges() {
             collegeGrid.innerHTML = ''; // Clear existing grid
+
+            // Debug: Log data structure
+            if (collegeData.length > 0) {
+                console.log('Sample college data:', collegeData[0]);
+                console.log('Total colleges loaded:', collegeData.length);
+            } else {
+                console.error('No college data loaded!');
+                collegeGrid.innerHTML = '<p style="color: var(--text-muted-dark); grid-column: 1 / -1; text-align: center;">No college data available. Please check database connection.</p>';
+                return;
+            }
 
             // Get filter values
             const searchTerm = searchName.value.toLowerCase();
@@ -390,16 +246,15 @@
                 const nameMatch = college.name.toLowerCase().includes(searchTerm);
                 // Location Filter
                 const locationMatch = (location === 'All') || (college.location === location);
-                // Course Filter
-                const courseMatch = (course === 'All') || (college.cutoffs && college.cutoffs[course]);
+                const courseMatch = hasCourseData(college, course);
                 
                 return nameMatch && locationMatch && courseMatch;
             });
 
             // 2. Sort the data
             filteredColleges.sort((a, b) => {
-                const aCutoff = a.cutoffs.CSE || 999999;
-                const bCutoff = b.cutoffs.CSE || 999999;
+                const aCutoff = getDefaultCutoff(a, 'CSE') ?? 999999;
+                const bCutoff = getDefaultCutoff(b, 'CSE') ?? 999999;
                 
                 switch (sortOption) {
                     case 'name_asc':
@@ -415,9 +270,21 @@
                 }
             });
 
+            // Debug: Log filtered results
+            console.log(`Filtered ${filteredColleges.length} colleges for course: ${course}`);
+            if (filteredColleges.length === 0 && course !== 'All') {
+                // Check if any colleges have this course
+                const collegesWithCourse = collegeData.filter(c => hasCourseData(c, course));
+                console.log(`Colleges with ${course}:`, collegesWithCourse.length);
+            }
+
             // 3. Create and append HTML cards
             if (filteredColleges.length === 0) {
-                collegeGrid.innerHTML = '<p style="color: var(--text-muted-dark); grid-column: 1 / -1; text-align: center;">No colleges match your criteria.</p>';
+                let message = 'No colleges match your criteria.';
+                if (course !== 'All') {
+                    message += ` Try selecting a different course or "All Courses".`;
+                }
+                collegeGrid.innerHTML = `<p style="color: var(--text-muted-dark); grid-column: 1 / -1; text-align: center; padding: 2rem;">${message}</p>`;
                 return;
             }
 
@@ -427,10 +294,11 @@
                 // THIS IS THE KEY: We pass the college's unique ID to openModal
                 card.onclick = () => openModal(college.id); 
                 
+                const gmCutoff = getDefaultCutoff(college, 'CSE');
                 card.innerHTML = `
                     <h3>${college.name}</h3>
                     <p><strong>Location:</strong> ${college.location}</p>
-                    <p><strong>Avg. CSE Cutoff:</strong> ~${college.cutoffs.CSE || 'N/A'}</p>
+                    <p><strong>GM CSE Cutoff:</strong> ~${gmCutoff ?? 'N/A'}</p>
                     <p><strong>Avg. Fees:</strong> ${college.fees}/year</p>
                 `;
                 collegeGrid.appendChild(card);
@@ -457,9 +325,18 @@
             // 3. Dynamically create the branch cutoff list
             modalBranchList.innerHTML = '';
             if (college.cutoffs) {
-                for (const [branch, cutoff] of Object.entries(college.cutoffs)) {
+                for (const [branch, categories] of Object.entries(college.cutoffs)) {
                     const li = document.createElement('li');
-                    li.innerHTML = `${branch}: <span>~${cutoff}</span>`;
+                    const entries = Object.entries(categories || {});
+                    if (entries.length === 0) {
+                        li.textContent = `${branch}: data unavailable`;
+                    } else {
+                        const gm = categories?.GM ?? entries[0][1];
+                        const categoryDetails = entries
+                            .map(([cat, value]) => `${cat}: ~${value}`)
+                            .join(', ');
+                        li.innerHTML = `<strong>${branch}</strong>: GM ~${gm}${entries.length > 1 ? `<br/><small>${categoryDetails}</small>` : ''}`;
+                    }
                     modalBranchList.appendChild(li);
                 }
             } else {
