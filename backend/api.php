@@ -36,52 +36,43 @@ if (strpos($lowerPrompt, 'hello') !== false || strpos($lowerPrompt, 'hi') !== fa
 // PLEASE create a new, safe key and put it here.
 // The key you pasted in our chat is not safe to use!
 //
-$apiKey = 'AIzaSyBZjWXQjohyjOWuRzv1GKGyAa1I1tel_MA';
-//
-// ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
+$apiKey = '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';
+$apiUrl = 'https://api.groq.com/openai/v1/chat/completions';
 
-//
-// This is the correct model name you gave me from your curl command
-//
-$apiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
-
-// The data to send to the API
 $postData = [
-    'contents' => [
+    'model' => 'openai/gpt-oss-120b',
+    'messages' => [
         [
-            'parts' => [
-                // You can change this system prompt to guide the AI
-                ['text' => "You are an expert career counselor for CET exams in India. Keep your answers brief (2-3 sentences) and helpful. User's question: " . $userPrompt]
-            ]
+            'role' => 'system',
+            'content' => "You are an expert career counselor for CET exams in India. Keep your answers brief (2-3 sentences) and helpful."
+        ],
+        [
+            'role' => 'user',
+            'content' => $userPrompt
         ]
     ]
 ];
 
-// Use cURL to make the API request
 $ch = curl_init($apiUrl);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_POST, true);
 curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($postData));
 curl_setopt($ch, CURLOPT_HTTPHEADER, [
     'Content-Type: application/json',
-    'X-goog-api-key: ' . $apiKey
+    'Authorization: Bearer ' . $apiKey
 ]);
-
-
 $apiResponse = curl_exec($ch);
+if (curl_errno($ch)) {
+    error_log('cURL error: ' . curl_error($ch));
+}
 curl_close($ch);
 
-// Decode the API's response
 $result = json_decode($apiResponse, true);
-
-// Extract the text from the response
-if (isset($result['candidates'][0]['content']['parts'][0]['text'])) {
-    $botReply = $result['candidates'][0]['content']['parts'][0]['text'];
+if (isset($result['choices'][0]['message']['content'])) {
+    $botReply = $result['choices'][0]['message']['content'];
 } else {
-    // If the API fails, send back the error message it returned
     $errorDetails = json_encode($result['error'] ?? 'Unknown API error');
     $botReply = "Sorry, I couldn't get a response from the AI. Please try again later. Error: " . $errorDetails;
-    // You can also log the error: error_log($apiResponse);
 }
 // --- END: Real AI API Call ---
 

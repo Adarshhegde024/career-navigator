@@ -130,14 +130,14 @@ if ($fileType === 'csv') {
         redirect_with_message('error', 'Invalid Excel format. Ensure it contains College, Branch, Category, and Cutoff columns.');
     }
 } elseif ($extension === 'pdf') {
-    $script = escapeshellcmd("python \"" . __DIR__ . "/../scripts/parse_cutoffs_pdf.py\" \"" . $tempPath . "\"");
+    $script = escapeshellcmd("python \"" . __DIR__ . "/../scripts/parse_cutoffs_pdf_plumber.py\" \"" . $tempPath . "\"");
     $output = shell_exec($script);
     if ($output === null) {
         redirect_with_message('error', 'Failed to parse the PDF file.');
     }
     $decoded = json_decode($output, true);
     if (isset($decoded['error'])) {
-        redirect_with_message('error', 'Gemini error: ' . $decoded['error']);
+        redirect_with_message('error', 'PDF extraction error: ' . $decoded['error']);
     }
     $rows = $decoded;
 } else {

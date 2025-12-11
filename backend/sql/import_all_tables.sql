@@ -52,3 +52,4 @@ ON DUPLICATE KEY UPDATE `password_hash` = VALUES(`password_hash`);
 -- Go to phpMyAdmin -> Import tab -> Select colleges_schema.sql file
 -- OR copy-paste the INSERT INTO colleges statements from colleges_schema.sql starting from line 42
 
+
