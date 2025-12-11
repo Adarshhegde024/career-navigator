@@ -19,3 +19,4 @@ INSERT INTO `admin_users` (`email`, `password_hash`) VALUES
 ('cetnavigator151@gmail.com', '$2y$10$hxSdh6WdHZr.Q.OXKF23uORTDDr6s40fjtnokvxyCKyPL.oD1BTzW');
 
 
+

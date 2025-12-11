@@ -53,3 +53,4 @@ ON DUPLICATE KEY UPDATE `password_hash` = VALUES(`password_hash`);
 -- OR copy-paste the INSERT INTO colleges statements from colleges_schema.sql starting from line 42
 
 
+
